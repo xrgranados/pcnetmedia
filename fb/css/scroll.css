@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.scroll-track-top {
+/*    height:10px; width:10px; background-image: url('../img/barra_scroll.jpg');*/
+}
+
+.scroll-track-bot {
+/*    height:10px; width:10px; background-image: url('../img/barra_scroll.jpg.jpg');*/
+}
+
+.scroll-track {
+    height:263px; width:10px;background-color:#FFF;
+}
+
+.scroll-handle {
+    height:19px; width:10px; background-color:#4066B1; cursor:pointer;
+}
+
+.scroll-handle-top {
+/*    height:25px; width:14px; background-image: url('../img//boton_scroll.png'); background-repeat: repeat; cursor:pointer;*/
+}
+
+.scroll-handle-bot {
+/*    height:25px; width:14px; background-image: url('../img/boton_scroll.png'); background-repeat: repeat; cursor:pointer;*/
+}

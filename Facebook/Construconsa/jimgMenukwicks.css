@@ -1,0 +1,70 @@
+#fanpage{
+	 text-align:left;
+	 position: left;
+}
+.jimgMenu {
+	position:relative;
+	margin: 0px 0px 0px 190px;
+	padding: 0px;
+	width:475px;
+	height:600px;
+	overflow: hidden;
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	height: 600px;
+	position: relative;
+	}
+	
+.jimgMenu ul li {
+	width: 95px;
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#fff repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow: hidden;
+	height: 600px;
+}
+
+.jimgMenu ul li#Promo a {
+	background: url(images/Promo.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#Apartamentos a {
+	background: url(images/Apartamentos.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#Terrenos a {
+	background: url(images/Terrenos.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#Casas a {
+	background: url(images/Casas.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#Promo2 a {
+	background: url(images/Promo2.jpg) repeat scroll 0%;
+	border-right-style: none;
+}
+
+.clear {
+	clear: both;
+}
+.description {
+	width:800px;
+}

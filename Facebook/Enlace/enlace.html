@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>= = CONSTRUCONSA = =</title>
+<!-- CSS -->
+	<link type="text/css" href="http://www.pcnetmedia.com/Facebook/Enlace/css/skitter.styles.css" media="all" rel="stylesheet" />
+<!-- JS -->
+	<script type="text/javascript" src="http://www.pcnetmedia.com/Facebook/Enlace/js/jquery-1.6.3.min.js"></script>
+	<script type="text/javascript" src="http://www.pcnetmedia.com/Facebook/Enlace/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="http://www.pcnetmedia.com/Facebook/Enlace/js/jquery.animate-colors-min.js"></script>
+	<script type="text/javascript" src="http://www.pcnetmedia.com/Facebook/Enlace/js/jquery.skitter.min.js"></script>
+<!-- Init Plugin -->
+	<script>
+		$(document).ready(function() {
+			$(".box_skitter_large").skitter({
+				numbers: false,
+				numbers_align: "center", 
+				dots: false, 
+				preview: false,
+				focus: false, 
+				focus_position: "leftTop", 
+				controls: false, 
+				controls_position: "leftTop", 
+				progressbar: false, 
+				progressbar_css: { 
+					top:'5px', 
+					left:'590px', 
+					height:10, 
+					borderRadius:'2px', 
+					width:200, 
+					backgroundColor:'#000', 
+					opacity:.7 
+				}, 
+				animateNumberOver: { 'backgroundColor':'#555' }, 
+				enable_navigation_keys: false
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="fanpage">
+		<img src="http://www.pcnetmedia.com/Facebook/Enlace/images/001.jpg"/>
+		<br>
+	</div>
+	<div id="content">
+		<div class="border_box">
+			<div class="box_skitter box_skitter_large">
+				<ul>
+					<li><a href="#cubeRandom"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/002.jpg" class="cubeRandom" /></a></li>
+					<li><a href="#block"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/003.jpg" class="block" /></a></li>
+					<li><a href="#cubeStop"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/004.jpg" class="cubeStop" /></a></li>
+					<li><a href="#cubeHide"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/005.jpg" class="cubeHide" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="pie">
+		<br>
+			<img src="http://www.pcnetmedia.com/Facebook/Enlace/images/006.jpg"/>
+		</div>
+</body>
+</html>

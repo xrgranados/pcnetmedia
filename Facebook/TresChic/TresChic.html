@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>= = CONSTRUCONSA = =</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- CSS -->
+	<link type="text/css" href="css/skitter.styles.css" media="all" rel="stylesheet" />
+<!-- JS -->
+	<script type="text/javascript" src="js/jquery-1.6.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+	<script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+<!-- Init Plugin -->
+	<script>
+		$(document).ready(function() {
+			$(".box_skitter_large").skitter({
+				numbers: false,
+				numbers_align: "center", 
+				dots: false, 
+				preview: false,
+				focus: false, 
+				focus_position: "leftTop", 
+				controls: false, 
+				controls_position: "leftTop", 
+				progressbar: false, 
+				progressbar_css: { 
+					top:'5px', 
+					left:'590px', 
+					height:10, 
+					borderRadius:'2px', 
+					width:200, 
+					backgroundColor:'#000', 
+					opacity:.7 
+				}, 
+				animateNumberOver: { 'backgroundColor':'#555' }, 
+				enable_navigation_keys: false
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="fanpage">
+		<img src="images/001.jpg"/>
+		<br>
+	</div>
+	<div id="content">
+		<div class="border_box">
+			<div class="box_skitter box_skitter_large">
+				<ul>
+					<li><a href="#cubeRandom"><img src="images/002.jpg" class="cubeRandom" /></a></li>
+					<li><a href="#horizontal"><img src="images/003.jpg" class="horizontal" /></a></li>
+					<li><a href="#tube"><img src="images/004.jpg" class="tube" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="pie">
+		<br>
+			<img src="images/006.jpg"/>
+		</div>
+		<div id="description">
+		<p>TRES CHIC TEL.: 6637-2646<br>&copy; Todos los derechos reservados - Guatemala 2012.<br>Design by Pcnet Media</p>
+		</div>
+</body>
+</html>
