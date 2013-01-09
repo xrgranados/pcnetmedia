@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,200);
+body{
+	background-color:  #053b94;
+	background-image:url(../img/noisepattern.png);
+	font-family: 'Titillium Web', sans-serif;
+	margin:0 auto;
+	text-align:center;
+}
+
+hr {
+	width: 800px;
+
+}
+#wrapper {
+	
+	width:800px;
+	margin: 0 auto 0 auto;
+	height:100%;
+	
+}
+
+#foot{
+	font-size: 400;
+	font-style: italic;
+	color:white;
+	margin:0 auto;
+	text-align:center;
+}
+
+.logo {
+	margin-top: 25px;
+}
+@media screen and (max-width:800px){
+	.logo img {
+		width:100%;
+	}
+	.logo img{
+		height: auto;
+	}
