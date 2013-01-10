@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>= = CONSTRUCONSA = =</title>
+	<meta charset="utf-8"/>
+	<title>Inmobiliaria • Enlace</title>
 <!-- CSS -->
-	<link type="text/css" href="http://www.pcnetmedia.com/Facebook/Enlace/css/skitter.styles.css" media="all" rel="stylesheet" />
+	<link type="text/css" href="http://www.pcnetmedia.com/Facebook/Enlace/css/skitter.styles.css" media="all" rel="stylesheet"/>
+	  <style type="text/css">
+      .fb-like {
+      	position: absolute;
+      	z-index: 1;
+      	top: 65px;
+      	left: 570px;
+      }
+    </style>
 <!-- JS -->
-	<script type="text/javascript" src="http://www.pcnetmedia.com/Facebook/Enlace/js/jquery-1.6.3.min.js"></script>
-	<script type="text/javascript" src="http://www.pcnetmedia.com/Facebook/Enlace/js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="http://www.pcnetmedia.com/Facebook/Enlace/js/jquery.animate-colors-min.js"></script>
-	<script type="text/javascript" src="http://www.pcnetmedia.com/Facebook/Enlace/js/jquery.skitter.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.6.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+	<script type="text/javascript" src="js/jquery.skitter.min.js"></script>
 <!-- Init Plugin -->
 	<script>
 		$(document).ready(function() {
@@ -17,45 +26,57 @@
 				numbers_align: "center", 
 				dots: false, 
 				preview: false,
+				velocity: 0.25,
+				interval: 2250, 
 				focus: false, 
 				focus_position: "leftTop", 
 				controls: false, 
 				controls_position: "leftTop", 
-				progressbar: false, 
+				progressbar: true, 
+				stop_over: null,
 				progressbar_css: { 
 					top:'5px', 
 					left:'590px', 
-					height:10, 
+					height:7, 
 					borderRadius:'2px', 
 					width:200, 
 					backgroundColor:'#000', 
-					opacity:.7 
+					opacity:0.3 
 				}, 
 				animateNumberOver: { 'backgroundColor':'#555' }, 
-				enable_navigation_keys: false
+				enable_navigation_keys: false,
 			});
 		});
 	</script>
 </head>
 <body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=155000084642930";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="fb-like" data-href="http://www.facebook.com/enlacegt" data-send="false" data-width="100" data-show-faces="false" ></div>
 	<div id="fanpage">
-		<img src="http://www.pcnetmedia.com/Facebook/Enlace/images/001.jpg"/>
+		<img src="images/001_.jpg" style="z-index: 2;"/>
 		<br>
 	</div>
 	<div id="content">
 		<div class="border_box">
 			<div class="box_skitter box_skitter_large">
 				<ul>
-					<li><a href="#cubeRandom"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/002.jpg" class="cubeRandom" /></a></li>
-					<li><a href="#block"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/003.jpg" class="block" /></a></li>
-					<li><a href="#cubeStop"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/004.jpg" class="cubeStop" /></a></li>
+					<li><a href="#cubeRandom"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/001.jpg" class="cubeRandom" /></a></li>
+					<li><a href="#block"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/002.jpg" class="block" /></a></li>
+					<li><a href="#cubeStop"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/003.jpg" class="cubeStop" /></a></li>
 					<li><a href="#cubeHide"><img src="http://www.pcnetmedia.com/Facebook/Enlace/images/005.jpg" class="cubeHide" /></a></li>
 				</ul>
 			</div>
 		</div>
 		<div id="pie">
 		<br>
-			<img src="http://www.pcnetmedia.com/Facebook/Enlace/images/006.jpg"/>
+			<img src="images/006.jpg"/>
 		</div>
 </body>
 </html>
