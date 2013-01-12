@@ -1,14 +1,16 @@
 
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<html lang="es-gt">
 <!--[if IE 8]>         <html class="no-js ie ie8"> <![endif]-->
 <!--[if IE 9]>         <html class="no-js ie ie9"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <meta charset="utf-8">
+    
+        <?php include_once("include/head/metas.php"); ?>
         <title>Pcnet Media</title>
         <link rel="stylesheet" href="css/style.css">  
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        
 
         <!--[if lt IE 9]>
          <script src="js/html5shiv.js"></script>
@@ -309,7 +311,7 @@
             <section>
                 <header class="clearfix">
                     <img src="img/icons/contactImg.png" class="hImg" alt="">
-                    <h1>Contact</h1>
+                    <h1>Contáctenos</h1>
                     <h2>Do you have requirements for work? Hire us!</h2>
                     <h4>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</h4>
                     <p>Theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested at men sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their.</p>
@@ -470,3 +472,5 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="js/plugins.min.js"></script>
         <script src="js/scripts.min.js"></script>
+    </body>
+</html>
