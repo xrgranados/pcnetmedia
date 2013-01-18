@@ -16,6 +16,7 @@ hr {
 	border: none;
 	border-bottom: 1px dotted black;
 	padding: 5px 2px 0 2px;
+	width: 700px;
 }
 
 h1 {
@@ -60,7 +61,7 @@ header {
 	font-family: arial, Helvetica, sans-serif;
 	font-size: 1.5em;
 	font-style: bold;
-	color: #999;
+	color: #333;
 	float:left;
 	}
 
@@ -69,7 +70,7 @@ header {
 	font-family: arial, Helvetica, sans-serif;
 	font-size: 1.5em;
 	font-style: bold;
-	color: #999;
+	color: #333;
 	float:left;
 	}
 	
@@ -79,7 +80,7 @@ ul {
 label {
 	display:block;
 	margin:0 5px 0 0;
-	color:#999;
+	color:#333;
 	float: left;
 	width: 100px}
 
@@ -95,7 +96,7 @@ input[type=text], select, textarea {
 	width:80%;
 	padding: 7px;
 	background:#e5e5e5;
-	border:1px solid #dbdbdb;
+	border:1px solid #ccc;
 	margin:0 0 20px 0;
 	font-family:Arial, Helvetica, sans-serif;
 	font-style:italic;

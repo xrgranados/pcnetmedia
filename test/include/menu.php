@@ -4,23 +4,23 @@
                 <span>Open Menu</span>
                 <form>
                     <select>
-                        <option data-href="#header">Home</option>
+                        <option data-href="#header">Portada</option>
                         <option data-href="#aboutUs">Cónocenos</option>
-                        <option data-href="#ourTeam">Meet Our Team</option>
-                        <option data-href="#portfolio">Portfolio</option>
-                        <option data-href="#services">Services</option>
+                        <option data-href="#ourTeam">Nuestro Equipo</option>
+                        <option data-href="#services">Servicios</option>
+                        <option data-href="#portfolio">Portafolio</option>
                         <option data-href="#contactUs">Contáctenos</option>
                         <option data-href="#timeline">Timeline</option>
                     </select>
                 </form>
             </div>
-            <ul class="clearfix">
-                <li><a href="#header">Home</a></li>
+            <ul class="clearfixmenu">
+                <li><a href="#header">Portada</a></li>
                 <li><a href="#aboutUs">Cónocenos</a></li>
-                <li><a href="#ourTeam">Meet Our Team</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contactUs"></a>Contáctenos</li>
+                <li><a href="#ourTeam">Nuestro Equipo</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contactUs">Contáctenos</a></li>
                 <li><a href="#timeline">Timeline</a></li>
             </ul>
          </div>

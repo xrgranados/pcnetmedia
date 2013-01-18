@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url("fonts.css");
+
+body {
+	background-color: #191924;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#main{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.9)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari9.1+ */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    float: left;
+    height: 86px;
+    min-width: 960px;
+    opacity: 0.9;
+    width: 100%;
+    z-index: 1;
+}
+
+#main a.logo{
+    background:url(../img/logo-equus.png)bottom;
+    float: left;
+    height: 64px;
+    margin: 15px 0 0 15px;
+    width: 302px;
+}
+
+#main a:hover.logo {
+	background:url(../img/logo-equus.png) top;
+}
+
+#menu{
+    float: right;
+    margin: 0px;
+    width: 603px;
+}
+
+ul.mainmenu{
+    font-family:'ApexMedium', Arial, Helvetica, sans-serif;
+    float: left;
+    margin-top: 30px;
+    text-transform: uppercase;   
+}
+
+.clear {
+    clear: both;
+}
+
+.trama {
+    background: transparent url('../img/bg_tramado.png');
+    display: block;
+    height: 100%;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.mainmenu li {
+    float: left;
+    list-style: none;
+}
+
+.mainmenu li.back {
+    background: url('../img/menu_bg.png') repeat-x; 
+    -webkit-border-radius: 0px 0px 15px 15px;
+       -moz-border-radius: 0px 0px 15px 15px;
+            border-radius: 0px 0px 15px 15px;
+    -webkit-box-shadow: 0px 0px 15px #000000;
+       -moz-box-shadow: 0px 0px 15px #000000;
+            box-shadow: 0px 0px 15px #000000;
+    height: 75px;
+    opacity: 0.9;
+    position: absolute;
+    top: 0px;
+    width: 9px;
+    z-index: 8;
+}
+
+.mainmenu li a {
+    color: #fff;
+    display: block;
+    float: left;
+    font-family:'ApexMedium', Arial, Helvetica, sans-serif;
+    font: bold 14px;
+    height: 30px;
+    letter-spacing: 0;
+    margin: auto 10px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 7px;
+    z-index: 10;
+}
+
+.mainmenu li a:hover, 
+.mainmenu li a.active {
+    color: #000
+}
+
+.mainmenu li a:hover, .mainmenu li a:active, .mainmenu li a:visited {
+    border: none;
+} 
+
+
+
+
+
+
+#menu2{
+    float:left;
+}
+
+ul.mainmenu2 {
+    display:block;
+    font-family:'ApexMedium', Arial, Helvetica, sans-serif;
+    font-size: 1.75em;
+    float: left;
+    margin-top: 30px;
+    text-transform: uppercase;   
+}
+
+
+.mainmenu2 {
+    float: left;
+    list-style: none
+}
+
+.mainmenu2 li {
+    margin: 5px 0 5px 0; 
+    display: block;
+    padding: 5px 35px 10px 0;
+    height: 35px;
+    width:200px;
+}
+
+.mainmenu2 li a {
+    width: 200px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-family:'ApexMedium', Arial, Helvetica, sans-serif;
+    font: bold 14px;
+    height: 35px;
+    margin: auto 0px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: center;
+    top: 7px;
+    right:; 10px;
+    z-index: 10;
+}
+
+
+.mainmenu2 li.active, 
+.mainmenu2 li:hover {
+    color: #000;
+    display: block;
+    background: url('../img/menu_bg.png') repeat-x; 
+    -webkit-border-radius: 0 15px 15px 0;
+       -moz-border-radius: 0 15px 15px 0;
+            border-radius: 0 15px 15px 0;
+    -webkit-box-shadow: 0px 0px 15px #000000;
+       -moz-box-shadow: 0px 0px 15px #000000;
+            box-shadow: 0px 0px 15px #000000;
+    height: 35px;
+    opacity: 0.9;
+}
+
+
+
+
+.mainmenu2 li a:hover, .mainmenu li a:active, .mainmenu li a:visited {
+    border: none;
+} 

@@ -1,0 +1,450 @@
+@charset "UTF-8";
+
+/*
+ *   CSS Document 
+ *   Template Name: Print Default - Frontend CMS Web 1.0
+ *   Template Author: ZORRAQUINO DESIGN STUDIO S.L.U.
+ *   Template Copyright: 2008 © ZORRAQUINO DESIGN STUDIO S.L.U.
+ *   
+ *   http://www.zorraquino.com
+**
+_______________________________
+GENERAL */
+
+body {
+	background: transparent;
+	color: #000;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 8pt;
+}
+
+p {
+	padding-top: 0;
+	line-height: 1.3em;
+}
+
+abbr, acronym { border: none }
+
+caption { display: none }
+
+.parrafo li {
+	padding-top: 0.6em;
+	line-height: 1.4em;
+}
+
+a:link, a:visited {
+	color: #000;
+	text-decoration: none; 
+	background: transparent;
+}
+
+a.boton {
+	display: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+h1 {
+	display: block;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 2em;
+	font-family: "Helvetica Neue", "Arial", sans-serif;;
+	margin: .8em 0 .8em;
+	padding: 0;
+	padding-top: 0.6em;
+	line-height: 1.3em;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: "Helvetica Neue", "Arial", sans-serif;;
+	margin: 1.6em 0 .57em;
+	padding: 0;
+	line-height: 1.2em;
+	padding-top: 0.6em;
+}
+
+h4 {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	padding-top: 0.6em;
+	line-height: 1.4em;
+}
+
+/*
+_______________________________
+LISTAS */
+
+ul {
+	list-style: none;
+}
+
+li{line-height: 1.3em;}
+
+.contenido ul, .contenido li, .contenido li ul, .contenido ol ol {
+	margin-bottom: .8em;
+}
+
+.contenido ul, .contenido ul li {
+	list-style-type: disc;
+}
+
+.contenedor_contenido {
+	margin: auto;
+}
+
+.contenido_multibox {
+	text-align: justify;
+}
+
+.noprint {
+	display: none !important;
+}
+
+.nomargen {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+sup {
+	font-size: 0.5em;
+}
+
+hr {
+	border: 0;
+  width: 100%;
+  background-color: #ccc;
+  height: 1px;
+}
+
+#logo{display:none}
+
+.nota {
+	color: #000;
+	padding-top: 0;
+	line-height: 1.3em;
+}
+
+.imagen10 img {
+	background-color: #fff;
+	border: 1px solid #ece7d3;
+	padding: 10px;
+	display: block;
+	margin: 20px -1px;
+}
+
+.imagen5 img {
+	background-color: #fff;
+	border: 1px solid #ece7d3;
+	padding: 5px;
+	display: block;
+	margin: 20px -1px;
+}
+
+/*
+.destacado {
+	display: none;
+}
+*/
+.lista_linea {
+	padding-left: 0;
+}
+
+/* Formularios */
+
+label span {
+	display: none;
+}
+
+fieldset {
+  border: 0;
+	padding: 0;
+}
+
+legend {
+	font-size: 1.3em;
+	font-weight: normal !important;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	padding: 0;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	line-height: 1.2em;
+	margin: 0;
+}
+
+input {
+	margin-top: 2px;
+}
+
+input.file{
+	padding: 3px;
+}
+
+input.muycorta {
+	width: 80px;
+}
+
+input.supercorta {
+	width: 60px;
+}
+
+input.corta {
+	width: 200px;
+}
+
+input.media {
+	width: 400px;
+}
+
+input.larga {
+	width: 95%;
+}
+
+input.login {
+	width: 202px;
+}
+
+textarea {
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #000;
+	font: 1em "Helvetica Neue", Arial, sans-serif;
+	padding: 3px;
+	overflow: hidden;
+}
+
+select {
+	color: #000;
+	font: 1em "Helvetica Neue", Arial, sans-serif;
+	padding: 3px;
+	overflow: hidden;
+}
+
+select.multiple {
+	width: 400px;
+}
+
+textarea.corta {
+	width: 400px;
+	height: 150px;
+}
+
+textarea.media {
+	width: 95%;
+	height: 300px;
+}
+
+textarea.media_baja {
+	width: 95%;
+	height: 80px;
+}
+
+textarea.media_muybaja {
+	width: 95%;
+	height: 45px;
+}
+
+textarea.larga {
+	width: 95%;
+	height: 300px;
+}
+
+.limpia {
+	clear: both;
+	font-size: 1px;
+	height: 1px;
+	padding: 0;
+}
+
+div.error {
+	display: none;
+}
+
+
+/* Tablas */
+
+table {
+	width: 100%;
+	margin-bottom: 5px;
+	border: 0 !important;
+}
+
+caption {
+	font-size: 1.3em;
+	font-weight: normal !important;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	padding: 0;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	line-height: 1.2em;
+	margin: 0;
+	text-align: left;
+}
+
+td, th {
+	padding: 0;
+	height: 1px;
+	line-height: 1.4em;
+	background-color: transparent !important;
+	vertical-align: top;
+	border: 0 !important;
+	border-bottom: 1px solid #000 !important;
+}
+
+table th p, .contenedor table td p {
+	margin-top: 0;
+	margin-bottom: .4em;
+}
+
+thead th {
+	font-weight: bold;
+	text-align: left;
+	padding: 0 5px 4px 0;
+	line-height: 1.4em;
+	background-color: transparent !important;
+}
+
+tbody th {
+	text-align: left;
+	font-weight: bold;
+	background-color: transparent !important;
+}
+
+tbody tr {
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+	background-color: transparent !important;
+}
+
+tfoot th, tfoot td {
+	padding: 0 5px 4px 0;
+	text-align: left;
+	border-bottom: 3px solid #ccc;
+	font-weight: bold;
+	line-height: 1.4em;
+	background-color: transparent !important;
+}
+
+/*
+_______________________________
+TABLAS */
+
+.contenido table ul, .contenido table ul li {
+	list-style-type: disc;
+}
+
+.contenedor table th, .contenedor table td { 
+	padding: .4em 5px 0 0;
+}
+
+.contenedor table th p, .contenedor table td p {
+	margin-left: 15px;
+}
+
+.contenido table ul,.contenido table ol {
+	padding-left: 15px;
+	margin-top: 0;
+}
+
+.contenedor tbody th, .contenedor tbody td {
+	vertical-align: top;
+}
+
+.contenido table ul ul, .contenido table ol ol {
+	margin-left: 30px;
+}
+
+.contenido table ol, .contenido table ol li {
+	list-style-image: none;
+}
+
+caption {
+	display: none;
+}
+
+tr {
+	border-bottom: 1px solid #f4f3f0 !important;
+}
+
+.contenedor thead tr th {
+	padding: .4em 5px .4em 15px;
+}
+
+.contenedor tbody th, .contenedor tbody td {
+	vertical-align: top;
+}
+
+.ancho99 {
+	width: 99%;
+}
+
+.align_dcha {
+	text-align: right;
+}
+
+textarea {
+	width: 80%;
+}
+
+/* Botones */
+
+.bt_azul {
+	display: none;
+}
+
+.bt_azul span {
+	display: none;
+}
+
+.bt_verde {
+	display: none;
+}
+
+.bt_verde span {
+	display: none;
+}
+
+.bt_verde_grande {
+	display: none;
+}
+
+.bt_verde_grande span {
+	display: none;
+}
+
+
+/* Pie */
+
+#contacto ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#contacto ul li {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#zorraquino {
+	/*display: none;*/
+}
+
+#nota_legal {
+	display: none;
+}
+
+#pie {
+	/*display: none;*/
+}
+
+/*
+_______________________________
+END */

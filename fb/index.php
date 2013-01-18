@@ -14,6 +14,8 @@
 		<header>
 			<img src="assets/images/layer1.png">
 			<img src="assets/images/layer2.png">
+			<h3>Viendo la necesidad de plasmar ideas nace Pcnet Media, el grupo dedicado a todo lo relacionado con el ámbito digital.
+</h3>
 		</header>
 
 		<section class="main">
