@@ -51,7 +51,7 @@
 }
 
 .ch-img-1 { 
-	background-image: url(../images/1.jpg);
+	background:#053b94 url(../images/1.jpg);
 	z-index: 12;
 }
 
@@ -77,13 +77,13 @@
 }
 
 .ch-bg1{
-	background: #053b94;
+	background: #dd4f27;
 } 
 .ch-bg2{
-	background: #191924;
+	background: #053b94;
 }
 .ch-bg3{
-	background: #abc210;
+	background: #191924;
 }
 
 .ch-info h3 {

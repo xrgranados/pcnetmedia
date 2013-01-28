@@ -1,0 +1,16 @@
+
+<script language="javascript" type="text/javascript" src="assets/feed/js/jquery-1.4.2.min.js"></script>
+<script language="javascript" type="text/javascript" src="assets/feed/js/jquery.jfeed.js"></script>
+<script language="javascript" type="text/javascript" src="assets/feed/js/jquery.aRSSFeed.js"></script>
+
+<div class="RSSAggrCont" rssnum="5" rss_url="http://es.engadget.com/bloggers/jose-andrade/rss.xml">
+    <div class="loading_rss">
+        <img alt="Loading..." src="assets/feed/templates/images/loading.gif" />
+    </div>
+</div>
+
+<script language="javascript" type="text/javascript">
+$(document).ready( function() {
+    $('div.RSSAggrCont').aRSSFeed();
+} );
+</script>

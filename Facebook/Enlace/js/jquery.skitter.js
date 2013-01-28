@@ -75,7 +75,7 @@
 		is_paused_time:			false,
 		timeStart:				0,
 		elapsedTime:			0,
-		stop_over:				true,
+		stop_over:				false,
 		enable_navigation_keys:	false,
 		with_animations:		[],
 		mouseOverButton: 		function() { $(this).stop().animate({opacity:0.5}, 200); }, 

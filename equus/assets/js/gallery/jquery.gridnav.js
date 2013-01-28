@@ -641,8 +641,8 @@
 					
 					var settings = {
 						rows	: 2,
-						navL	: '#tj_prev',
-						navR	: '#tj_next',
+						navL	: '#tj_prev, #tj_prev2, #tj_prev3',
+						navR	: '#tj_next, #tj_next2, #tj_next3',
 						type	: {
 							mode		: 'def', 		// use def | fade | seqfade | updown | sequpdown | showhide | disperse | rows
 							speed		: 500,			// for fade, seqfade, updown, sequpdown, showhide, disperse, rows

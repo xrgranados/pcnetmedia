@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="assets/css/style3.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/common.css" />
+<link rel="shortcut icon" href="http://www.pcnetmedia.com/assets/ico/favicon.ico" />
+
 <script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script> 
 <!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
 </head>
@@ -14,8 +16,30 @@
 		<header>
 			<img src="assets/images/layer1.png">
 			<img src="assets/images/layer2.png">
-			<h3>Viendo la necesidad de plasmar ideas nace Pcnet Media, el grupo dedicado a todo lo relacionado con el ámbito digital.
-</h3>
+			<h3>Viendo la necesidad de plasmar ideas nace Pcnet Media, el grupo dedicado a todo lo relacionado con el ámbito digital.</h3>
+			<h4>Creatividad e innovaci&oacute;n son calificativos de nuestro trabajo.</h4>
+			<div style="text-align:left; margin: 0 0 0 90px; font-size:15px;">Pcnet Media te brinda servicios en:&nbsp;<br />
+				<br />
+				&nbsp;&bull; Dise&ntilde;o Web
+				<div>
+					&nbsp;&bull; Internet Marketing</div>
+				<div>
+					&nbsp;&bull; Dise&ntilde;o Grafico</div>
+			</div>
+			<br />
+			<!--<div style="
+			  padding: 15px 15px 0px 15px;
+			  background: #ddd;
+			  border: 1px solid rgba(0,0,0,0.15);
+			  border-radius: 4px;
+			  transition: all 0.3s ease-out;
+			  box-shadow:
+			    inset 0 1px 0 rgba(255,255,255,0.5),
+			    0 2px 2px rgba(0,0,0,0.3),
+			    0 0 4px 1px rgba(0,0,0,0.2);
+							 width:200px; margin: 0 auto 0 auto; text-align: center;height: 35px;">
+				<a href="http://pcnetmedia.com/fb/" style="color: black;" target="_blank"><strong>Visita Pcnetmedia.com</strong></a></div>-->
+
 		</header>
 
 		<section class="main">
@@ -25,7 +49,7 @@
 						<div class="ch-item">	
 							<div class="ch-info ch-bg1">
 								<h3>Diseño Web</h3>
-								<p>Creatividad, Innovación, Móviles... <a href="#">Ver Más...</a></p>
+								<p>Creatividad, Innovación, Móviles... <a href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
 							</div>
 							<div class="ch-thumb ch-img-1"></div>
 						</div>
@@ -34,7 +58,7 @@
 						<div class="ch-item">
 							<div class="ch-info ch-bg2">
 								<h3>Social Media</h3>
-								<p>Redes Sociales, Marketing Viral... <a href="#">Ver Más...</a></p>
+								<p>Redes Sociales, Marketing Viral... <a href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
 							</div>
 							<div class="ch-thumb ch-img-2"></div>
 						</div>
@@ -43,7 +67,7 @@
 						<div class="ch-item">
 							<div class="ch-info ch-bg3">
 								<h3>Diseño Gráfico</h3>
-								<p>Comunicación Visual, Creatividad, Ilustración...<a href="#">Ver Más...</a></p>
+								<p>Comunicación Visual, Creatividad, Ilustración...<a href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
 							</div>
 							<div class="ch-thumb ch-img-3"></div>
 						</div>
@@ -110,7 +134,7 @@
 				}
 				}
 				})();
-				      </script>		
+				      </script>
 		</section>
 
 		<div class="clear"></div>

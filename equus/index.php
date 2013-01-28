@@ -1,37 +1,33 @@
-
 <!DOCTYPE html>
+<html lang="es-gt">
     <head>
 
         <title>EQUUS Guatemala</title>
         <?php include_once("include/head_metas.php"); ?>
         
+         <style type="text/css">
+
+            .menu li.active1 {
+                background: url('assets/img/menu_bg.png') repeat; 
+                -webkit-border-radius: 0px 0px 15px 15px;
+                   -moz-border-radius: 0px 0px 15px 15px;
+                        border-radius: 0px 0px 15px 15px;
+                -webkit-box-shadow: 0px 0px 15px #000000;
+                   -moz-box-shadow: 0px 0px 15px #000000;
+                        box-shadow: 0px 0px 15px #000000;
+                opacity: 1;
+            }
+            .menu li.active1 > a {
+                color: black; 
+            }
+
+        </style>
 
     </head>
     <body>
-        <header id="main">
-    
-            <div class="logo">
-                <a href="index.php" title="Home" class="logo"></a>
-            </div>
-            
-            <nav id="menu">
-                <ul class="mainmenu" id="2">
-                    <li><a href="index.php" class="active" title="Gallery">Portada</a></li>
-                    <li><a href="#">equus</a></li>
-                    <li><a href="gallery.php">Catálogos</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Ubicación</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-
-            <div id="social">
-                <a href="#" id="fb" title="facebook" target="_blank"></a>
-                <a href="#" id="tw" title="Twitter" target="_blank"></a>
-                <a href="#" id="yt" title="Youtube" target="_blank"></a>
-            </div>
-        </header>
-        <!-- End header -->
+        
+        <!-- Header -->
+        <?php include_once("include/header.php"); ?>
 
         <!--Arrow Navigation
         <a id="prevslide" class="load-item"></a>
@@ -49,7 +45,6 @@
         <?php include_once("include/supersized.php"); ?>
 
         <script type="text/javascript" src="assets/js/jquery-1.2.3.min.js"></script>
-        <?php include_once("include/lavalamp.php"); ?>
 
 
         <span class="trama"></span>

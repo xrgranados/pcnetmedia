@@ -5,6 +5,8 @@
 
 body {
 	background-color: #191924;
+
+
 }
 
 ol, ul {
@@ -22,9 +24,8 @@ ol, ul {
     float: left;
     height: 86px;
     min-width: 960px;
-    opacity: 0.9;
     width: 100%;
-    z-index: 1;
+    z-index: 0;
 }
 
 #main a.logo{
@@ -39,18 +40,142 @@ ol, ul {
 	background:url(../img/logo-equus.png) top;
 }
 
-#menu{
+#main nav{
     float: right;
-    margin: 0px;
-    width: 603px;
+    margin: 0 50px 0;
+    width: 600px;
+    z-index: 10px
 }
 
-ul.mainmenu{
-    font-family:'ApexMedium', Arial, Helvetica, sans-serif;
-    float: left;
-    margin-top: 30px;
-    text-transform: uppercase;   
+.menu,
+.menu ul,
+.menu li,
+.menu a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
 }
+
+/* Menu */
+.menu { 
+    font-family:'ApexBook', Arial, Helvetica, sans-serif;
+    float: right;
+    margin-top: 0px;
+    text-transform: uppercase;  
+    z-index: 10;
+}
+
+.menu li {
+    padding-top: 30px;
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    height: 50px;
+}
+
+/* Links */
+
+.menu li a {
+    color: #fff;
+    display: block;
+    float: left;
+    font-family:'ApexBook', Arial, Helvetica, sans-serif;
+    font: bold 14px;
+    height: 30px;
+    letter-spacing: 0;
+    margin: auto 25px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 7px;
+    z-index: 10;
+
+}
+
+.menu li:hover { 
+    background: url('../img/menu_bg.png') repeat; 
+    -webkit-border-radius: 0px 0px 15px 15px;
+       -moz-border-radius: 0px 0px 15px 15px;
+            border-radius: 0px 0px 15px 15px;
+    -webkit-box-shadow: 0px 0px 15px #000000;
+       -moz-box-shadow: 0px 0px 15px #000000;
+            box-shadow: 0px 0px 15px #000000;
+}
+
+.menu li:hover > a {
+    color: #fff; 
+}
+
+/* Sub Menu */
+
+.menu ul {
+    z-index: 10;
+    position: absolute;
+    top: 80px;
+    left: 0;
+
+    opacity: 0;
+    
+    background: #32343a;
+
+    
+    -webkit-box-shadow: 0px 0px 15px #000000;
+       -moz-box-shadow: 0px 0px 15px #000000;
+            box-shadow: 0px 0px 15px #000000;
+
+    -webkit-transition: opacity .25s ease .1s;
+    -moz-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+}
+
+.menu ul li:hover { 
+    background: url('../img/menu_bg.png') repeat; 
+    
+    opacity: 0.9;
+    height: 30px;
+}
+
+
+.menu ul li:hover > a {
+    color: #000; 
+}
+
+.menu li:hover > ul { 
+    opacity: 1;
+ }
+
+.menu ul li {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+
+    -webkit-transition: height .25s ease .1s;
+    -moz-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+}
+
+.menu li:hover > ul li {
+    height: 40px;
+    overflow: visible;
+    padding: 0;
+}
+
+.menu ul li a {
+    width: 200px;
+    padding: 4px 0 4px 4px;
+    margin: 0;
+    border: none;
+}
+
 
 .clear {
     clear: both;
@@ -64,131 +189,46 @@ ul.mainmenu{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: -1;
+    z-index: -100;
 }
 
-
-.mainmenu li {
-    float: left;
-    list-style: none;
-}
-
-.mainmenu li.back {
-    background: url('../img/menu_bg.png') repeat-x; 
-    -webkit-border-radius: 0px 0px 15px 15px;
-       -moz-border-radius: 0px 0px 15px 15px;
-            border-radius: 0px 0px 15px 15px;
-    -webkit-box-shadow: 0px 0px 15px #000000;
-       -moz-box-shadow: 0px 0px 15px #000000;
-            box-shadow: 0px 0px 15px #000000;
-    height: 75px;
-    opacity: 0.9;
-    position: absolute;
-    top: 0px;
-    width: 9px;
-    z-index: 8;
-}
-
-.mainmenu li a {
-    color: #fff;
-    display: block;
-    float: left;
-    font-family:'ApexMedium', Arial, Helvetica, sans-serif;
-    font: bold 14px;
-    height: 30px;
-    letter-spacing: 0;
-    margin: auto 10px;
-    outline: none;
-    overflow: hidden;
+.container {
+    width: 100%;
+    height: 100%;
     position: relative;
     text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    top: 7px;
-    z-index: 10;
 }
 
-.mainmenu li a:hover, 
-.mainmenu li a.active {
-    color: #000
-}
-
-.mainmenu li a:hover, .mainmenu li a:active, .mainmenu li a:visited {
-    border: none;
-} 
-
-
-
-
-
-
-#menu2{
-    float:left;
-}
-
-ul.mainmenu2 {
-    display:block;
-    font-family:'ApexMedium', Arial, Helvetica, sans-serif;
-    font-size: 1.75em;
+@media screen and (max-width: 1024px){
+    #main nav{
     float: left;
-    margin-top: 30px;
-    text-transform: uppercase;   
+    margin:25px ;
+    width: 600px;
+    z-index: 10px
 }
 
-
-.mainmenu2 {
+.menu {
     float: left;
-    list-style: none
 }
 
-.mainmenu2 li {
-    margin: 5px 0 5px 0; 
-    display: block;
-    padding: 5px 35px 10px 0;
-    height: 35px;
-    width:200px;
-}
-
-.mainmenu2 li a {
-    width: 200px;
-    color: #fff;
-    display: block;
-    float: left;
-    font-family:'ApexMedium', Arial, Helvetica, sans-serif;
-    font: bold 14px;
-    height: 35px;
-    margin: auto 0px;
-    outline: none;
-    overflow: hidden;
-    position: relative;
-    text-align: right;
-    text-decoration: none;
-    text-transform: uppercase;
-    vertical-align: center;
-    top: 7px;
-    right:; 10px;
-    z-index: 10;
-}
-
-
-.mainmenu2 li.active, 
-.mainmenu2 li:hover {
-    color: #000;
-    display: block;
-    background: url('../img/menu_bg.png') repeat-x; 
-    -webkit-border-radius: 0 15px 15px 0;
-       -moz-border-radius: 0 15px 15px 0;
-            border-radius: 0 15px 15px 0;
+.menu li:hover { 
+    background: url('../img/menu_bg.png') repeat; 
+    -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+            border-radius: 15px;
     -webkit-box-shadow: 0px 0px 15px #000000;
        -moz-box-shadow: 0px 0px 15px #000000;
             box-shadow: 0px 0px 15px #000000;
-    height: 35px;
-    opacity: 0.9;
 }
 
+.menu li.active1,
+.menu li.active2,
+.menu li.active3,
+.menu li.active4,
+.menu li.active5, {
+                -webkit-border-radius: 15px !important;
+                   -moz-border-radius: 15px !important;
+                        border-radius: 15px !important;
+            }
 
-
-
-.mainmenu2 li a:hover, .mainmenu li a:active, .mainmenu li a:visited {
-    border: none;
-} 
+}

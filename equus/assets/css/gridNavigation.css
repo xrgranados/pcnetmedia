@@ -15,12 +15,12 @@
 }
 .tj_nav span{
 	height:50px;
-	background:#121212 url(../images/gallery/prev.png) no-repeat top left;
+	background:#121212 url(../img/prev.png) no-repeat top left;
 	position:absolute;
 	top:-50px;
 	left:0px;
 	text-indent:-9000px;
-	opacity:0.8;
+	opacity:0.9;
 	cursor:pointer;
 	-webkit-border-radius: 50%;
 	   -moz-border-radius: 50%;
@@ -38,7 +38,7 @@
 	*/
 }
 .tj_nav span.tj_next{
-	background-image:url(../images/gallery/next.png);
+	background-image:url(../img/next.png);
 	top:auto;
 	bottom:0px;
 	left:0px;
@@ -52,6 +52,8 @@
 	position:relative;
 	margin:0px auto;
 	padding: 10px;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 15px
 }
 .tj_wrapper ul li{
 	float:left;
@@ -68,7 +70,7 @@
 .tj_wrapper ul li a img{
 	display:block;
 	border:none;
-	opacity: 0.4;
+	opacity: 0.6;
 	
 	/*
 	-webkit-transition: all 0.2s ease-in-out;
@@ -82,6 +84,54 @@
 }
 
 /* Specific style for the examples */
-.example10 .tj_container{
-	height:600px;
+.tj_container{
+	height:400px;
+
+}
+
+@media screen and (max-width: 1024px){
+  .tj_wrapper{
+	width:75%;
+}
+
+.tj_container{
+	width:80%;
+	height:400px;
+	position:relative;
+	margin:30px auto;
+}
+
+.tj_wrapper ul li a{
+	
+	margin:7px;
+	
+}
+
+.tj_nav{
+	
+	right:-50px;
+	
+}
+
+}
+
+@media screen and (max-width: 768px){
+  .tj_wrapper{
+	width:80%;
+}
+
+.tj_container{
+	width:50%;
+	height:400px;
+	position:relative;
+	margin:30px auto;
+}
+
+.tj_wrapper ul li a img{
+	width: auto\9;
+  	height: auto;
+  	max-width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
 }

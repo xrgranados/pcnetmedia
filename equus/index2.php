@@ -17,7 +17,7 @@
 
             <nav id="menu2">
                 <ul class="mainmenu2">
-                    <li class="active"><a href="index.php" title="Gallery">Portada</a></li>
+                    <li class="active"><a href="index2.php" class="active" title="Gallery">Portada</a></li>
                     <li><a href="#">equus</a></li>
                     <li><a href="gallery.php">Catálogos</a></li>
                     <li><a href="#">Blog</a></li>

@@ -3,8 +3,9 @@
         <script type="text/javascript" src="assets/theme/supersized.shutter.min.js"></script>
         
         <script type="text/javascript">
-            jQuery(function($){
-                $.supersized({
+        jQuery.noConflict();
+            jQuery(function(jQuery){
+                jQuery.supersized({
                     // Components                           
                     slide_links             :   'blank',    // Individual links for each slide (Options: false, 'num', 'name', 'blank')
                     thumb_links             :   1,          // Individual thumb links for each slide
