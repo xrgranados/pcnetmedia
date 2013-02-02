@@ -115,7 +115,7 @@
                         </ul>
                     </li>
                     <li>
-                        <img src="assets/img/team/member3.png" alt="">
+                        <img src="assets/img/team/member2.png" alt="">
                         <h5>Rafael Granados</h5>
                         <h6>Web Designer</h6>
                         <ul class="socialIcons clearfix">

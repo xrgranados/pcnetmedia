@@ -42,6 +42,10 @@ header {
 
 }
 
+a:link, a:hover, a:visited {
+	color: black;
+}
+
 #wrapper {
 	margin: 10px auto 0 auto;
 	width: 790px;
@@ -62,7 +66,7 @@ header {
  .col {
 	margin-left: 25px;
 	font-family: arial, Helvetica, sans-serif;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-style: bold;
 	color: #333;
 	float:left;
@@ -133,4 +137,8 @@ input[type=submit]:hover {
 
 .clear{
 	clear: both;
+}
+
+.btn {
+	margin-top: 25px
 }

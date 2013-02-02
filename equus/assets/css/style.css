@@ -2,24 +2,41 @@
 /* CSS Document */
 
 @import url("fonts.css");
+/*@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);*/
 
 body {
 	background-color: #191924;
-
-
 }
 
 ol, ul {
     list-style: none;
 }
 
+footer {
+    background: -moz-linear-gradient(right, rgba(51,51,51,0.50) 0%, rgba(51,51,51,0.25) 100%);
+    background: -webkit-gradient(linear, right top, right top, color-stop(0%,rgba(51,51,51,0.50)), color-stop(100%,rgba(51,51,51,0.25)));
+    background: -webkit-linear-gradient(right, rgba(51,51,51,0.50) 0%,rgba(51,51,51,0.25) 100%);
+    background: -o-linear-gradient(right, rgba(51,51,51,0.50) 0%,rgba(51,51,51,0.25) 100%);
+    background: -ms-linear-gradient(right, rgba(51,51,51,0.50) 0%,rgba(51,51,51,0.25) 100%);
+    background: linear-gradient(to left, rgba(51,51,51,0.50) 0%,rgba(51,51,51,0.25) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40333333', endColorstr='#80333333',GradientType=1 );
+    bottom:0px; 
+    color: #fff;
+    font-family: 'Old Standard TT', 'ApexBook', Arial, Helvetica, sans-serif;
+    height:50px; 
+    left:0; 
+    position:fixed; 
+    width:100%; 
+    z-index:5; 
+}
+
 #main{
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.9)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari9.1+ */
-    background: -moz-linear-gradient(top,  rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-    background: -o-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(51,51,51,0.9)), color-stop(100%,rgba(51,51,51,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(51,51,51,0.9) 0%,rgba(51,51,51,0) 100%); /* Chrome10+,Safari9.1+ */
+    background: -moz-linear-gradient(top,  rgba(51,51,51,0.9) 0%, rgba(51,51,51,0) 100%); /* FF3.6+ */
+    background: -o-linear-gradient(top,  rgba(51,51,51,0.9) 0%,rgba(51,51,51,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(51,51,51,0.9) 0%,rgba(51,51,51,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(51,51,51,0.9) 0%,rgba(51,51,51,0) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
     float: left;
     height: 86px;
@@ -40,6 +57,8 @@ ol, ul {
 	background:url(../img/logo-equus.png) top;
 }
 
+/* MENU */
+
 #main nav{
     float: right;
     margin: 0 50px 0;
@@ -59,7 +78,7 @@ ol, ul {
 
 /* Menu */
 .menu { 
-    font-family:'ApexBook', Arial, Helvetica, sans-serif;
+    font-family: 'Old Standard TT', 'ApexBook', Arial, Helvetica, sans-serif;
     float: right;
     margin-top: 0px;
     text-transform: uppercase;  
@@ -67,6 +86,7 @@ ol, ul {
 }
 
 .menu li {
+
     padding-top: 30px;
     position: relative;
     list-style: none;
@@ -81,11 +101,11 @@ ol, ul {
     color: #fff;
     display: block;
     float: left;
-    font-family:'ApexBook', Arial, Helvetica, sans-serif;
+    font-family: 'Old Standard TT', 'ApexBook', Arial, Helvetica, sans-serif;
     font: bold 14px;
     height: 30px;
     letter-spacing: 0;
-    margin: auto 25px;
+    margin: auto 20px;
     outline: none;
     overflow: hidden;
     position: relative;
@@ -97,11 +117,13 @@ ol, ul {
 
 }
 
-.menu li:hover { 
+.menu li:hover {
+    opacity: 0.8;
+    
     background: url('../img/menu_bg.png') repeat; 
-    -webkit-border-radius: 0px 0px 15px 15px;
-       -moz-border-radius: 0px 0px 15px 15px;
-            border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 7px 7px;
+       -moz-border-radius: 0px 0px 7px 7px;
+            border-radius: 0px 0px 7px 7px;
     -webkit-box-shadow: 0px 0px 15px #000000;
        -moz-box-shadow: 0px 0px 15px #000000;
             box-shadow: 0px 0px 15px #000000;
@@ -114,32 +136,28 @@ ol, ul {
 /* Sub Menu */
 
 .menu ul {
-    z-index: 10;
+    background: #32343a;
+    left: 0;
+    opacity: 0;
     position: absolute;
     top: 80px;
-    left: 0;
-
-    opacity: 0;
-    
-    background: #32343a;
-
+    z-index: 10;
     
     -webkit-box-shadow: 0px 0px 15px #000000;
        -moz-box-shadow: 0px 0px 15px #000000;
             box-shadow: 0px 0px 15px #000000;
 
     -webkit-transition: opacity .25s ease .1s;
-    -moz-transition: opacity .25s ease .1s;
-    -o-transition: opacity .25s ease .1s;
-    -ms-transition: opacity .25s ease .1s;
-    transition: opacity .25s ease .1s;
+       -moz-transition: opacity .25s ease .1s;
+         -o-transition: opacity .25s ease .1s;
+        -ms-transition: opacity .25s ease .1s;
+            transition: opacity .25s ease .1s;
 }
 
 .menu ul li:hover { 
     background: url('../img/menu_bg.png') repeat; 
-    
-    opacity: 0.9;
     height: 30px;
+    opacity: 0.9;
 }
 
 
@@ -157,10 +175,10 @@ ol, ul {
     padding: 0;
 
     -webkit-transition: height .25s ease .1s;
-    -moz-transition: height .25s ease .1s;
-    -o-transition: height .25s ease .1s;
-    -ms-transition: height .25s ease .1s;
-    transition: height .25s ease .1s;
+       -moz-transition: height .25s ease .1s;
+         -o-transition: height .25s ease .1s;
+        -ms-transition: height .25s ease .1s;
+            transition: height .25s ease .1s;
 }
 
 .menu li:hover > ul li {
@@ -231,4 +249,113 @@ ol, ul {
                         border-radius: 15px !important;
             }
 
+}
+
+/* Footer */
+
+.redes {
+    margin: -40px 25px 0 0;
+    float:right;
+}
+
+footer a.facebook, footer a.twitter, footer a.youtube, footer a.instagram, footer a.pinterest, footer a.pcnet {
+    border-radius: 50%;
+    display:block;
+    float:left;
+    width:33px;
+    height:31px;
+    margin:0 0 0 8px;}
+    
+footer a.facebook {
+    background:url(../img/redes/ico-facebook.png) top;}
+    
+footer a.twitter {
+    background:url(../img/redes/ico-twitter.png) top;}
+    
+footer a.youtube {
+    background:url(../img/redes/ico-youtube.png) top;}
+    
+footer a.instagram {
+    background:url(../img/redes/ico-instagram.png) top;}
+
+footer a.pinterest {
+    background:url(../img/redes/ico-pinterest.png) top;}
+footer a.pcnet {
+    background:url(../img/redes/ico-pcnet.png) top;}
+    
+footer a:hover.facebook, 
+footer a:hover.twitter, 
+footer a:hover.youtube, 
+footer a:hover.instagram, 
+footer a:hover.pinterest,
+footer a:hover.pcnet {
+    box-shadow: #d4bd6a 0 0 10px
+    }
+
+.news {
+    padding: 10px;
+    float: left;
+    width: 600px;
+}
+
+footer .col, .col2 {
+    float:left;
+    width:150px;
+    margin:0 1px 0 0;
+}
+
+footer .col input {
+    margin:0 50px 0 0;
+    display: block;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    padding: 5px 8px;
+    color: #333;
+    box-shadow: 
+    inset 0 0px 10px rgba(0,0,0,0.7);
+
+}
+
+.col input:focus {
+    outline: none;
+}
+
+.col2 input {
+    background: url('../img/menu_bg.png') repeat;
+    margin:0 50px 0 0;
+    display: block;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 5px 8px;
+    color: #333;
+    border-left: 1px solid #555;
+}
+
+.sus {
+    box-shadow: 0 0 12px #000;
+    height: 30px;
+    width: 228px;
+    border-radius: 20px
+}
+
+footer .firm {
+    width: 150px;
+    padding: 10px;
+    margin: -50px auto 0 auto;
+}
+
+.firm a:link,
+.firm a:hover, 
+.firm a:visited {
+    color: #fff;
+}
+
+.firm a img {
+    margin-top: -20px;
+}
+
+footer p {
+    vertical-align: center;
+    font-family: 'Old Standard TT', 'ApexBook', Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
 }

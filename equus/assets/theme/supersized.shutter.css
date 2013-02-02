@@ -40,7 +40,7 @@
 	
 	/* Progress Bar
 	----------------------------*/					
-	#progress-back{ opacity: 0.5; z-index:5; position:fixed; bottom:5px; left:0; height:7px; width:100%; background:#1f1f1f repeat-x; }
+	#progress-back{ opacity: 0.5; z-index:5; position:fixed; bottom:50px; left:0; height:7px; width:100%; background:#1f1f1f repeat-x; }
 		#progress-bar{ opacity: 0.7; position:relative; height:7px; width:100%; background:#dab56c repeat-x; }
 	
 	

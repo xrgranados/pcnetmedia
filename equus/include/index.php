@@ -5,6 +5,9 @@
         <title>EQUUS Guatemala</title>
         <?php include_once("include/head_metas.php"); ?>
         
+        <!--Script Browser upadate-->
+        <script type="text/javascript" src="http://updateyourbrowser.net/asn.js"> </script> 
+        <!--End Script Browser upadate-->
 
     </head>
     <body>

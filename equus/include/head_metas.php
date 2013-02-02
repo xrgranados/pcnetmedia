@@ -21,7 +21,6 @@
 <link rel="stylesheet" href="assets/css/supersized.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="assets/theme/supersized.shutter.css" type="text/css" media="screen" />
 
-
 <!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
 <![endif]-->

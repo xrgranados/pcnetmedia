@@ -27,18 +27,7 @@
 					&nbsp;&bull; Dise&ntilde;o Grafico</div>
 			</div>
 			<br />
-			<!--<div style="
-			  padding: 15px 15px 0px 15px;
-			  background: #ddd;
-			  border: 1px solid rgba(0,0,0,0.15);
-			  border-radius: 4px;
-			  transition: all 0.3s ease-out;
-			  box-shadow:
-			    inset 0 1px 0 rgba(255,255,255,0.5),
-			    0 2px 2px rgba(0,0,0,0.3),
-			    0 0 4px 1px rgba(0,0,0,0.2);
-							 width:200px; margin: 0 auto 0 auto; text-align: center;height: 35px;">
-				<a href="http://pcnetmedia.com/fb/" style="color: black;" target="_blank"><strong>Visita Pcnetmedia.com</strong></a></div>-->
+			
 
 		</header>
 
@@ -76,8 +65,29 @@
 				</ul>
 				
 		</section>
+		<section class="btn">
+			<a href="http://pcnetmedia.com" style="color: black;" target="_blank"><div style="
+			  padding: 15px 15px 0px 15px;
+			  background: #ddd;
+			  border: 1px solid rgba(0,0,0,0.15);
+			  border-radius: 4px;
+			  transition: all 0.3s ease-out;
+			  box-shadow:
+			    inset 0 1px 0 rgba(255,255,255,0.5),
+			    0 2px 2px rgba(0,0,0,0.3),
+			    0 0 4px 1px rgba(0,0,0,0.2);
+							 width:200px; margin: 0 auto 0 auto; text-align: center;height: 35px;">
+				<strong>Visita Pcnetmedia.com</strong></div></a>
+
+
+		</section>
 		<section class="sus">
-				<div class="col">Contáctanos</div><br>
+				<div class="col">Contáctanos</div><br><br>
+				<p style="text-align: left;">¿Requiere de nuestros servicios? Cuente con nosotros.
+					Si desea contactarse con nosotros, puede hacerlo a través del siguiente formulario. 
+					Nos pondremos en contacto en breve. <br>
+					Tel: <a href="callto:+50222689427" class="call"> +502 2268 9427 </a> &nbsp (8:00 - 18:00) <br>
+					<a href="mailto:info@pcnetmedia.com">info@pcnetmedia.com</a> </p> 
 				<script type="text/javascript">var submitted=false;</script>
 			    <iframe name="hidden_iframe" id="hidden_iframe"
 			    style="display:none;" onload="if(submitted)

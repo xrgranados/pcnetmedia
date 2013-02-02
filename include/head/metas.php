@@ -2,10 +2,11 @@
 <!-- Metas -->
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="description" content="Viendo la necesidad de plasmar las ideas nace Pcnet Media, el grupo dedicado a todo lo relacionado con el ámbito digital.">
+<meta name="description" content="Viendo la necesidad de plasmar las ideas nace Pcnet Media, el grupo dedicado a todo lo relacionado con diseño digital.">
 <meta name="keywords" content="diseño instalación y administración de redes, suministros, asesoría, proyectos informáticos, diseño gráfico, representación 3D, administración de Redes Sociales, diseño Web, soluciones web">
+<meta name="robots" content="index, follow">
 <meta property="og:title" content="Pcnet Media" />
-<meta property="og:description" content="Viendo la necesidad de plasmar las ideas nace Pcnet Media, el grupo dedicado a todo lo relacionado con el ámbito digital."/>
+<meta property="og:description" content="Viendo la necesidad de plasmar las ideas nace Pcnet Media, el grupo dedicado a todo lo relacionado con diseño digital."/>
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://www.pcnetmedia.com"/>
 <meta property="og:site_name" content="Pcnetmedia.com" />
