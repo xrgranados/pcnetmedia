@@ -4,69 +4,70 @@
 
         <title>EQUUS Guatemala</title>
         <?php include_once("include/head_metas.php"); ?>
-            <!-- Maps -->
 
-     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <!-- Maps -->
 
-       <script>
-          function initialize() {
-            var mapOptions = {
-              zoom: 11,
-              center: new google.maps.LatLng(14.581922,-90.508118),
-              mapTypeId: google.maps.MapTypeId.ROADMAP
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+           <script>
+              function initialize() {
+                var mapOptions = {
+                  zoom: 11,
+                  center: new google.maps.LatLng(14.581922,-90.508118),
+                  mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(document.getElementById('map_canvas'),
+                                              mapOptions);
+
+                setMarkers(map, tiendas);
+          }
+
+          /**
+           * Data for the markers consisting of a name, a LatLng and a zIndex for
+           * the order in which these markers should display on top of each
+           * other.
+           */
+          var tiendas = [
+            ['EQUUS Miraflores', 14.621000,-90.553000, 2],
+            ['EQUUS Pradera Concepcion', 14.552328,-90.453427, 1],
+          ];
+
+          function setMarkers(map, locations) {
+            // Add markers to the map
+
+            // Marker sizes are expressed as a Size of X,Y
+            // where the origin of the image (0,0) is located
+            // in the top left of the image.
+
+            // Origins, anchor positions and coordinates of the marker
+            // increase in the X direction to the right and in
+            // the Y direction down.
+            var image = new google.maps.MarkerImage('assets/img/logoweb.png',
+                // This marker is 20 pixels wide by 32 pixels tall.
+                new google.maps.Size(100, 100),
+                // The origin for this image is 0,0.
+                new google.maps.Point(0,0),
+                // The anchor for this image is the base of the flagpole at 0,32.
+                new google.maps.Point(0, 32));
+            
+            var shape = {
+                coord: [1, 1, 1, 20, 18, 20, 18 , 1],
+                type: 'poly'
+            };
+            for (var i = 0; i < locations.length; i++) {
+              var beach = locations[i];
+              var myLatLng = new google.maps.LatLng(beach[1], beach[2]);
+              var marker = new google.maps.Marker({
+                  position: myLatLng,
+                  map: map,
+                  icon: image,
+                  shape: shape,
+                  title: beach[0],
+                  zIndex: beach[3]
+              });
             }
-            var map = new google.maps.Map(document.getElementById('map_canvas'),
-                                          mapOptions);
-
-            setMarkers(map, tiendas);
-      }
-
-      /**
-       * Data for the markers consisting of a name, a LatLng and a zIndex for
-       * the order in which these markers should display on top of each
-       * other.
-       */
-      var tiendas = [
-        ['EQUUS Miraflores', 14.621000,-90.553000, 2],
-        ['EQUUS Pradera Concepcion', 14.552328,-90.453427, 1],
-      ];
-
-      function setMarkers(map, locations) {
-        // Add markers to the map
-
-        // Marker sizes are expressed as a Size of X,Y
-        // where the origin of the image (0,0) is located
-        // in the top left of the image.
-
-        // Origins, anchor positions and coordinates of the marker
-        // increase in the X direction to the right and in
-        // the Y direction down.
-        var image = new google.maps.MarkerImage('assets/img/logoweb.png',
-            // This marker is 20 pixels wide by 32 pixels tall.
-            new google.maps.Size(100, 100),
-            // The origin for this image is 0,0.
-            new google.maps.Point(0,0),
-            // The anchor for this image is the base of the flagpole at 0,32.
-            new google.maps.Point(0, 32));
-        
-        var shape = {
-            coord: [1, 1, 1, 20, 18, 20, 18 , 1],
-            type: 'poly'
-        };
-        for (var i = 0; i < locations.length; i++) {
-          var beach = locations[i];
-          var myLatLng = new google.maps.LatLng(beach[1], beach[2]);
-          var marker = new google.maps.Marker({
-              position: myLatLng,
-              map: map,
-              icon: image,
-              shape: shape,
-              title: beach[0],
-              zIndex: beach[3]
-          });
-        }
-      }
-    </script>
+          }
+        </script>
         <link rel="stylesheet" type="text/css" href="assets/css/style1.css" />
         <style type="text/css">
 
@@ -113,7 +114,7 @@
             <div id="progress-bar"></div>
         </div>
 
-        <div class="container">
+        <!-- Contenido  -->
             <section class="cn-container">
             <div class="cn-slide cn-init" id="slide-main">
                 <nav>
@@ -129,7 +130,7 @@
                 <a href="#slide-main" class="cn-back">Back</a>
                 <div class="cn-content">
                     <hr class="bar">
-                        <p>EQUUS JEANSTYLE fue fundada en 1976. En el transcurso de estos años de progreso continuo, 
+                        <p>EQUUS JEANSTYLE fue fundada en 1976, en Sao Paulo. En el transcurso de estos años de progreso continuo, 
                             siempre buscaba la satisfacción de sus clientes, desarrollando su propio estilo de confección 
                             que combina calidad, creatividad y buen gusto. <br> <br>
 
@@ -150,9 +151,27 @@
                 <a href="#slide-main" class="cn-back">Back</a>
                 <div class="cn-content">
                     <hr class="bar">
-                        <p>
-                            
-                        </p>
+                        
+                           <div class="demo-1">
+                            <ul id="carousel" class="elastislide-list">
+                              <li><a rel="stores" href="assets/images/tiendas/01.jpg" title="Miraflores"><img src="assets/images/tiendas/small/01.jpg" alt="image01" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/02.jpg" title="Miraflores"><img src="assets/images/tiendas/small/02.jpg" alt="image02" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/03.jpg" title="Miraflores"><img src="assets/images/tiendas/small/03.jpg" alt="image03" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/04.jpg" title="Miraflores"><img src="assets/images/tiendas/small/04.jpg" alt="image04" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/05.jpg" title="Miraflores"><img src="assets/images/tiendas/small/05.jpg" alt="image05" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/06.jpg" title="Miraflores"><img src="assets/images/tiendas/small/06.jpg" alt="image06" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/07.jpg" title="Miraflores"><img src="assets/images/tiendas/small/07.jpg" alt="image07" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/08.jpg" title="Miraflores"><img src="assets/images/tiendas/small/08.jpg" alt="image08" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/09.jpg" title="Miraflores"><img src="assets/images/tiendas/small/09.jpg" alt="image09" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/10.jpg" title="Miraflores"><img src="assets/images/tiendas/small/10.jpg" alt="image11" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/11.jpg" title="Miraflores"><img src="assets/images/tiendas/small/11.jpg" alt="image12" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/12.jpg" title="Miraflores"><img src="assets/images/tiendas/small/12.jpg" alt="image13" /></a></li>
+                              <li><a rel="stores" href="assets/images/tiendas/13.jpg" title="Miraflores"><img src="assets/images/tiendas/small/13.jpg" alt="image14" /></a></li>
+                            </ul>
+                          </div>
+
+                        <p class="str"> Equus Guatemala abre sus puestas apartir de Noviembre del 2012</p>
+                       
                 </div>
             </div>
               
@@ -163,7 +182,7 @@
                     <a href="#slide-main" class="cn-back">Back</a>
                     <nav>
                         <a href="#slide-3-1" class="navi">Guatemala</a>                           
-                        <a href="#slide-3-2" class="navi">Brasil</a>
+                        <a href="http://www.equus.com.br/lojas.php" class="navi" target="_blank">Brasil</a>
                     </nav>
             </div>
 
@@ -204,9 +223,42 @@
         
             </section>
 
-        </div> 
-        
-        
+        <!-- FancyBox -->
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+        <script type="text/javascript" src="assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+        <script type="text/javascript">
+        var k = jQuery.noConflict();
+        k(document).ready(function() {
+            k("a[rel=stores]").fancybox({
+                'transitionIn'      : 'none',
+                'transitionOut'     : 'none',
+                'titlePosition'     : 'over',
+                'titleFormat'       : function(title, currentArray, currentIndex, currentOpts) {
+                    return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + ' &#149;  EQUUS' + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+                }
+            });       
+        });
+        </script>
+
+        <!-- Carrousel -->
+
+        <link rel="stylesheet" type="text/css" href="assets/elastislide/elastislide.css" />
+        <link rel="stylesheet" type="text/css" href="assets/elastislide/custom.css" />
+        <script src="assets/elastislide/modernizr.custom.17475.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/elastislide/jquerypp.custom.js"></script>
+        <script type="text/javascript" src="assets/elastislide/jquery.elastislide.js"></script>
+        <script type="text/javascript">
+
+          $( '#carousel' ).elastislide();
+          
+        </script>
+
+        <!-- Supersized -->
 
         <?php include_once("include/supersized.php"); ?>
         <script type="text/javascript">

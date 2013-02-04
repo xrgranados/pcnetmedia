@@ -45,7 +45,7 @@
 
         <!-- Gallery -->
        
-        <div class="container">
+
             <section class="cn-container">
             <div class="cn-slide cn-init" id="slide-main">
                 <nav>
@@ -223,7 +223,6 @@
         
             </section>
 
-        </div>
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
         <script type="text/javascript" src="assets/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
