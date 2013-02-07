@@ -7,7 +7,7 @@
         
          <style type="text/css">
 
-            .menu li.active5 {
+            .menu li.active6 {
                 background: url('assets/img/menu_bg.png') repeat; 
                 -webkit-border-radius: 0px 0px 7px 7px;
                    -moz-border-radius: 0px 0px 7px 7px;
@@ -17,7 +17,7 @@
                         box-shadow: 0px 0px 15px #000000;
                 opacity: 1;
             }
-            .menu li.active5 > a {
+            .menu li.active6 > a {
                 color: black; 
             }
 
@@ -134,8 +134,6 @@
         <?php include_once("include/footer.php"); ?>
 
         <span class="trama"></span>
-
-        <?php include_once("include/footer.php"); ?>
 
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         

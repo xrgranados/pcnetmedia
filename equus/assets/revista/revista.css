@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#lookbook {
+	margin:0 auto;}
+
+#container-lookbook {
+	position:relative;}
+	
+.sliderbutton {
+	float:left; 
+	width:64px; 
+	height:144px; 
+	cursor:pointer}
+	
+#slideleft {
+	margin:0 20px 0 0;
+	background:url(../img/forward.png);
+	opacity:0.4}
+	
+#slideright {
+	margin:0 0 0 20px;
+	background:url(../img/back.png);
+	opacity:0.4}
+
+#slideleft:hover, #slideright:hover {
+	opacity:1}
+	
+#slider {
+	float:left; 
+	position:relative; 
+	overflow:auto; 
+	width:830px; 
+	height:170px}
+	
+#slider ul {
+	position:absolute; 
+	list-style:none; 
+	top:0; 
+	left:0}
+	
+#slider li {
+	float:left;
+	width:1000px; 
+	height:144px }
+	
+.pagination {
+	display:none;}

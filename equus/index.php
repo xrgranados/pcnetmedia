@@ -71,8 +71,6 @@
 
         <span class="trama"></span>
 
-        <?php include_once("include/footer.php"); ?>
-
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
 
     </body>

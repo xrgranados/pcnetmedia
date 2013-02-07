@@ -30,6 +30,75 @@ footer {
     z-index:5; 
 }
 
+a {
+    color:#f68b32;
+
+    text-decoration:none;
+}
+
+a:hover {
+    color:#cb7329;
+    
+}
+
+/*social*/
+#social {
+  margin: 10px 0 10px 0;
+  margin-left: 25px;
+  width: 10%;
+  z-index: 5;
+  float:left;
+}
+
+#social:after {
+    clear:both;
+}
+
+#social div {
+  
+  zoom: 1;
+ 
+  margin-left: 20px;
+  vertical-align: top;
+  zoom: 1;
+}
+#social div:nth-child(1) {
+  margin-left: 0;
+}
+#social .btn_youtube:after,
+#social .btn_twitter:after,
+#social .btn_facebook:after,
+#social .btn_googlemas:after {
+ 
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  content: "";
+  height: 30px;
+  margin-left: -5px;
+  margin-top: -28px;
+  display: block;
+  width: 60px;
+}
+#social .btn_youtube:after {
+  width: 70px;
+}
+#social .btn_twitter:after {
+  width: 80px;
+}
+#social .btn_facebook,
+#social .btn_googlemas {
+  width: 55px;
+}
+#social .btn_facebook:after {
+  margin-top: -25px;
+  width: 55px;
+}
+
+/* Headear */
+
 #main{
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(51,51,51,0.9)), color-stop(100%,rgba(51,51,51,0))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top,  rgba(51,51,51,0.9) 0%,rgba(51,51,51,0) 100%); /* Chrome10+,Safari9.1+ */
@@ -62,7 +131,7 @@ footer {
 #main nav{
     float: right;
     margin: 0 50px 0;
-    width: 600px;
+    width: 675px;
     z-index: 10px
 }
 
@@ -362,7 +431,7 @@ footer p {
        -moz-box-shadow: 0px 0px 12px #000000;
             box-shadow: 0px 0px 12px #000000;
     margin: 0 auto 0 auto;
-    height: 350px;
+    height: 345px;
     margin-top: 25px;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -377,9 +446,9 @@ footer p {
 }
 
 .container section {
-
+    padding: 10px;
     color: white;
-    height: 350px;
+    height: 325px;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -407,6 +476,44 @@ footer p {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
+
+.container article {
+    margin: 0 0 30px 0;
+}
+
+.container article .desc {
+    float: right;
+    width: 75%;
+    min-width: 200px;
+    display:block;
+}
+
+.container article img {
+    margin: 15px;
+     -webkit-box-shadow: 0px 0px 15px #000000;
+       -moz-box-shadow: 0px 0px 15px #000000;
+            box-shadow: 0px 0px 15px #000000; 
+}
+
+.container article img:hover {
+    opacity: 0.8;
+}
+
+.container a:link, .container a:visited, .container a:hover {
+    color: white;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.container .new {
+    margin: 15px; 
+    width: 80%; 
+    float:right;
+}
+
+.container .new 
 
 .bar {
     border: none;
@@ -503,7 +610,10 @@ footer p {
 .contact input[type=submit]:hover {
     background:#636363;}
 
+#mybook #indice a:visited, #mybook #indice a:link, #mybook #indice a:hover, {
+    color: white
 
+}
 
 @media screen and (max-width: 1024px) {
     .container {
