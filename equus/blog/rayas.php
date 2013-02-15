@@ -2,7 +2,7 @@
 <html lang="es-gt">
     <head>
 
-        <title>Blog EQUUS Guatemala</title>
+        <title>EQUUS Guatemala • Tips de Moda</title>
         <meta charset="utf-8" />
         <meta name="description" content="Uno de los colores que han surgido a lo largo de las últimas semanas en las noticias de la moda reciente, fue el turquesa. En referencia a los colores marítimos y piedras preciosas, turquesa es sinónimo de lujo y sofisticación y promete aclarar el color de piel bronceada para este verano, tanto en la ropa y en los accesorios. ">
         <meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1"/> 
@@ -29,7 +29,7 @@
         
          <style type="text/css">
 
-            .menu li.active1 {
+            .menu li.active5 {
                 background: url('../assets/img/menu_bg.png') repeat; 
                 -webkit-border-radius: 0px 0px 7px 7px;
                    -moz-border-radius: 0px 0px 7px 7px;
@@ -39,7 +39,7 @@
                         box-shadow: 0px 0px 15px #000000;
                 opacity: 1;
             }
-            .menu li.active1 > a {
+            .menu li.active5 > a {
                 color: black; 
             }
 
@@ -62,19 +62,17 @@
 
          <div class="container">
 
-            <aside id="social">
-
-                <div class="btn_twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-text="Tips para la #mujer dinámica, moderna y glamorosa #moda #fashion" data-url="http://bit.ly/SyKENi" data-via="equusgt" data-lang="es" data-related="anywhereTheJavascriptAPI" data-count="vertical">Tweet</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <div class="share">
+                <!-- AddThis Button BEGIN -->
+                <div class="addthis_toolbox addthis_default_style ">
+                    <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+                    <a class="addthis_button_tweet"></a>
+                    <a class="addthis_button_pinterest_pinit"></a>
                 </div>
-
-                <div id="fb-root" class="btn_facebook"><script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://bit.ly/SyKENi" send="false" layout="box_count" width="80" show_faces="false" ></fb:like>
-                </div>
-
-                <div class="btn_googlemas"><g:plusone size="tall" href="http://bit.ly/SyKENi"></g:plusone> 
-                </div>
-
-            </aside>
+                <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+                <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f3a5f1a1354b657"></script>
+                <!-- AddThis Button END -->
+            </div>
 
             <section class="new">
                 <article >

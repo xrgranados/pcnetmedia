@@ -52,6 +52,7 @@
                     <a href="#slide-1" class="navi">Campaña Verano 2013</a>                           
                     <a href="#slide-2" class="navi">Lookbook Verano 2013</a>                      
                     <a href="#slide-3" class="navi">Accesorios</a>
+                    <a href="#slide-4" class="navi">Videos</a>
                 </nav>
             </div>
                 
@@ -220,6 +221,29 @@
                     </div>
                     </nav>
                 </div>
+
+                <!-- Slide 4 and Sub-slides -->
+                <div class="cn-slide cn-slide-sub" id="slide-4">
+                    <h2>Campaña Equus Verano 2013</h2>
+                    <a href="#slide-main" class="cn-back">Back</a>
+                    <nav>
+                         <!-- Gallery -->
+
+                    <div id="tj_container4" class="tj_container">
+                    <div class="tj_nav">
+                        <span id="tj_prev4" class="tj_prev">Previous</span>
+                        <span id="tj_next4" class="tj_next">Next</span>
+                    </div>
+                    <div class="tj_wrapper">
+                        <ul class="tj_gallery">
+                            <li><a class="video" href="http://www.youtube.com/watch?v=tOtDYggc3Sw?fs=1&amp;autoplay=1&amp;rel=0" title="Campaña EQUUS Verano 2013"><img src="assets/images/videos-summer-secrets.png" alt="Campaña Equus Verano 2013" /></a></li>
+                            <li><a class="video" href="http://www.youtube.com/watch?v=A4rZrSM1GLc?fs=1&amp;autoplay=1&amp;rel=0" title="Campaña EQUUS Verano 2013"><img src="assets/images/ana-hickmann.png" alt="Campaña Equus Verano 2013" /></a></li>
+                            <li><a class="video" href="http://www.youtube.com/watch?v=rxtv3eBikfk?fs=1&amp;autoplay=1&amp;rel=0" title="LOOK TV 2013"><img src="assets/images/videos-looktv.png" alt="Look Tv" /></a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    </nav>
+                </div>
         
             </section>
 
@@ -231,8 +255,25 @@
 
         <script type="text/javascript">
         $(document).ready(function() {
+            $(".video").click(function() {
+                $.fancybox({
+                    'autoScale'     : true,
+                    'transitionIn'  : 'elastic',
+                    'transitionOut' : 'none',
+                    'title'         : this.title,
+                    'href'          : this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+                    'type'          : 'swf',
+                    'swf'           : {
+                    'wmode'             : 'transparent',
+                    'allowfullscreen'   : 'true'
+                    }
+                });
+
+                return false;
+            });
+
             $("a[rel=gallery]").fancybox({
-                'transitionIn'      : 'none',
+                'transitionIn'      : 'elastic',
                 'transitionOut'     : 'none',
                 'titlePosition'     : 'over',
                 'titleFormat'       : function(title, currentArray, currentIndex, currentOpts) {
@@ -293,7 +334,7 @@
         <script type="text/javascript">
         jQuery.noConflict();
             jQuery(function() {
-                jQuery('#tj_container, #tj_container2, #tj_container3').gridnav({
+                jQuery('#tj_container, #tj_container2, #tj_container3, #tj_container4').gridnav({
                     type    : {
                         mode        : 'seqfade',    // use def | fade | seqfade | updown | sequpdown | showhide | disperse | rows
                         speed       : 500,          // for fade, seqfade, updown, sequpdown, showhide, disperse, rows

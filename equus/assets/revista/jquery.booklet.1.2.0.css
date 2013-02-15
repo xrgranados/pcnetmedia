@@ -186,20 +186,20 @@ a#prev_page_button:hover{
 	
 /* @Menu Items
 ----------------------------------------*/
-	.b-menu { padding:0 0 10px; float:right;}
-	.b-menu img {margin:12px 0 0 0; float:left; border-radius: 7px;}
+	.b-menu {height:40px; padding:0 0 10px; float:right;}
+	.b-menu img {margin:12px 0 0 0; float:left}
 	
 	.b-selector             {height:40px; position:relative; float:right; border:none; color:#fff; cursor:pointer;}
-	.b-selector .b-current  {padding:8px 15px 12px; line-height:20px; min-width:18px; height:20px; display:block; background: rgba(51,51,51,0.9); text-align:center;}
+	.b-selector .b-current  {padding:8px 15px 12px; line-height:20px; min-width:18px; height:20px; display:block; background: url(../img/bg_tramado.png) rgba(0,0,0,0.5); text-align:center;}
 	.b-selector-page        {width:auto; margin-left:15px;}
 	.b-selector-chapter     {width:auto;}
 	
-	.b-selector:hover            {color:#666; background-position:left 0px;}
+	.b-selector:hover            {color:#fff; background-position:left 0px;}
 	.b-selector:hover .b-current {background-position:right 0px;}
-	.b-selector ul               {overflow:hidden; margin:0; list-style:none !important; position:absolute; top:40px; right:0; padding:0 0 10px; background: rgba(51,51,51,0.95); width:240px; font:normal 12px 'Old Standard TT', 'ApexBook', Arial, Helvetica, sans-serif; border-radius: 12px;}
+	.b-selector ul               {overflow:hidden; margin:0; list-style:none !important; position:absolute; top:40px; right:0; padding:0 0 10px; background: url(../img/bg_tramado.png) rgba(0,0,0,0.8); width:240px; font:normal 12px 'Old Standard TT', 'ApexBook', Arial, Helvetica, sans-serif; height:50px; border-radius: 12px; }
 	.b-selector li               {border:none;}
-	.b-selector a                {color:#ddd; height:14px; text-decoration:none; display:block; padding:5px 10px; margin:5px 0; border-bottom:1px solid #222}
+	.b-selector a                {color:#fff; height:14px; text-decoration:none; display:block; padding:5px 10px; margin:5px 0; border-bottom:1px solid rgba(51,51,51,0.5)}
 	.b-selector a .b-text        {float:left; clear:none;}
 	.b-selector a .b-num         {float:right; clear:none;}
-	.b-selector a:hover          {color:#000;}
+	.b-selector a:hover          {counter-reset: #666;}
 		

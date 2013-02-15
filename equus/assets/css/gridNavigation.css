@@ -1,10 +1,12 @@
 /* Thumbnail Effects Style */
+
 .tj_container{
 	width:800px;
 	height:400px;
 	position:relative;
 	margin:30px auto;
 }
+
 .tj_nav{
 	position:absolute;
 	right:-80px;
@@ -13,6 +15,7 @@
 	height:70px;
 	width:39px;
 }
+
 .tj_nav span{
 	height:50px;
 	background:#121212 url(../img/prev.png) no-repeat top left;
@@ -30,22 +33,24 @@
 			box-shadow: 0px 0px 15px #000000;
 	width:50px;
 
-
 	/*-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-transition: all 0.2s ease-in-out;
 	*/
 }
+
 .tj_nav span.tj_next{
 	background-image:url(../img/next.png);
 	top:auto;
 	bottom:0px;
 	left:0px;
 }
+
 .tj_nav span:hover{
 	opacity:1.0;
 }
+
 .tj_wrapper{
 	width:100%;
 	height:100%;
@@ -55,9 +60,11 @@
 	background-color: rgba(0,0,0,0.4);
 	border-radius: 15px
 }
+
 .tj_wrapper ul li{
 	float:left;
 }
+
 .tj_wrapper ul li a{
 	outline:none;
 	display:block;
@@ -67,6 +74,7 @@
 			box-shadow: 0px 0px 7px #000000;
 	background:black;
 }
+
 .tj_wrapper ul li a img{
 	display:block;
 	border:none;
@@ -79,18 +87,20 @@
 	-transition: all 0.2s ease-in-out;
 	*/
 }
+
 .tj_wrapper ul li a img:hover{
 	opacity:1.0;
 }
 
 /* Specific style for the examples */
+
 .tj_container{
 	height:400px;
-
 }
 
 @media screen and (max-width: 1024px){
-  .tj_wrapper{
+
+.tj_wrapper{
 	width:75%;
 }
 
@@ -102,21 +112,18 @@
 }
 
 .tj_wrapper ul li a{
-	
 	margin:7px;
-	
 }
 
 .tj_nav{
-	
 	right:-50px;
-	
 }
 
 }
 
 @media screen and (max-width: 768px){
-  .tj_wrapper{
+
+.tj_wrapper{
 	width:80%;
 }
 

@@ -155,6 +155,41 @@
 		</footer>
 	</div>
 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+        <script type="text/javascript" src="assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $(".video").click(function() {
+                $.fancybox({
+                    'autoScale'     : true,
+                    'transitionIn'  : 'elastic',
+                    'transitionOut' : 'none',
+                    'title'         : this.title,
+                    'href'          : this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+                    'type'          : 'swf',
+                    'swf'           : {
+                    'wmode'             : 'transparent',
+                    'allowfullscreen'   : 'true'
+                    }
+                });
+
+                return false;
+            });
+
+            $("a[rel=]").fancybox({
+                'transitionIn'      : 'none',
+                'transitionOut'     : 'none',
+                'titlePosition'     : 'over',
+                'titleFormat'       : function(title, currentArray, currentIndex, currentOpts) {
+                    return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + ' &#149;  EQUUS' + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+                }
+            });
+
+        });
+        </script>
 		
 </body>
 </html>

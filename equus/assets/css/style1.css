@@ -2,12 +2,12 @@
 	width: 80%;
 	min-width: 200px;
 	max-width: 1000px;
-	margin: -15px auto 0 auto;
+	margin: -86px auto 0 auto;
 	text-align: left;
 	position: relative;
-	height: 575px;
+	height: 475px;
 	overflow-y: hidden;
-	overflow-x: hidden;
+	overflow-x: auto;
 }
 
 .cn-container h2{
@@ -41,7 +41,7 @@
 	left: -200%;
 	width: 90%;
 	padding-top: 80px;
-	margin: 0 5%;
+	margin: -45px 5%;
 	opacity: 0;
 	-webkit-transition: left 0.4s linear, opacity 0.4s linear;
 	-moz-transition: left 0.4s linear, opacity 0.4s linear;
@@ -68,12 +68,12 @@
 	text-align: left;
 	display: block;
 	font-family: 'Old Standard TT', 'ApexBook', 'Arial Narrow', Arial, sans-serif;
-	padding: 2%;
+	padding: 1%;
 	text-decoration: none;
-	font-size: 2.2em;
+	font-size: 1.9em;
 	text-transform: uppercase;
 	color: rgba(255,255,255,0.7);
-	line-height: 66px;
+	line-height: 2.1em;
 	margin: 0 0 10px 0;
 	outline: none;
 	opacity: 1;
@@ -110,7 +110,7 @@
 .cn-slide-sub nav a.navi{
 	width: 100%;
 	display: inline-block;
-	font-size: 3em;
+	font-size: 2em;
 }
 .cn-slide-sub nav a:nth-child(odd){
 	margin-right: 5px;
@@ -260,6 +260,7 @@
 		font-size: 28px;
 	}
 }
+
 @media screen and (max-width: 900px){
 	.cn-container h2{
 		font-size: 32px;
@@ -283,5 +284,19 @@
    .cn-container{
 	margin: 100px auto 0 auto;
 }
+
+.cn-slide {
+	margin-top: 0px
 }
 
+
+}
+
+@media screen and (max-width: 768px){
+	.cn-content p{
+		height:400px;
+}
+
+
+
+}

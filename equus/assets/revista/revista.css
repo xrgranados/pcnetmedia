@@ -2,47 +2,80 @@
 /* CSS Document */
 
 #lookbook {
-	margin:0 auto;}
+	zoom:1.1;
+	margin:0 10px;
+
+}
 
 #container-lookbook {
-	position:relative;}
+	margin: 0 10px 50px 10px;
+	border-radius: 100px/500px;
+	background: url(../img/bg_tramado.png) rgba(0,0,0,0.5);
+	position:relative;
+	padding: 25px;
+}
+
+#container-lookbook {
+	color:white;
+	text-align: center
+}
 	
 .sliderbutton {
 	float:left; 
-	width:64px; 
-	height:144px; 
+	width:43px; 
+	height:43px; 
 	cursor:pointer}
 	
 #slideleft {
-	margin:0 20px 0 0;
-	background:url(../img/forward.png);
-	opacity:0.4}
+	margin:5% 20px 0 0;
+	background:url(../img/back.png) no-repeat;
+	opacity:0.7}
 	
 #slideright {
-	margin:0 0 0 20px;
-	background:url(../img/back.png);
-	opacity:0.4}
+	margin:5% 0 0 20px;
+	background:url(../img/forward.png) no-repeat;
+	opacity:0.7}
 
 #slideleft:hover, #slideright:hover {
-	opacity:1}
+	opacity:1
+}
 	
 #slider {
 	float:left; 
 	position:relative; 
 	overflow:auto; 
-	width:830px; 
-	height:170px}
+	width:300px; 
+	height:170px
+}
 	
 #slider ul {
 	position:absolute; 
 	list-style:none; 
 	top:0; 
-	left:0}
+	left:0
+}
 	
 #slider li {
+	color: #fff;
 	float:left;
-	width:1000px; 
-	height:144px }
+	width:600px; 
+	height:144px 
+}
 	
 .pagination {
-	display:none;}
+	display:none;
+}
+
+.col p {
+	font-size:11px;
+	text-align:center;
+	color:#fff;
+	margin:7px 0;}
+
+.revista {
+	width: 575px;
+	height:100px;
+	margin: 25px auto 250px auto;
+	
+	
+}

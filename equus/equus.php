@@ -170,7 +170,7 @@
                             </ul>
                           </div>
 
-                        <p class="str"> Equus Guatemala abre sus puestas apartir de Noviembre del 2012</p>
+                          <p class="str"></p>
                        
                 </div>
             </div>
