@@ -2,10 +2,10 @@
 	width: 80%;
 	min-width: 200px;
 	max-width: 1000px;
-	margin: -86px auto 0 auto;
+	margin: -86px 0 0 -50px;
 	text-align: left;
 	position: relative;
-	height: 475px;
+	height: 500px;
 	overflow-y: hidden;
 	overflow-x: auto;
 }

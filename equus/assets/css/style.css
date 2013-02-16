@@ -32,13 +32,11 @@ footer {
 
 a {
     color:#f68b32;
-
     text-decoration:none;
 }
 
 a:hover {
-    color:#cb7329;
-    
+    color:#cb7329;   
 }
 
 
@@ -313,9 +311,10 @@ footer .col input {
 }
 
 footer .firm {
-    width: 150px;
+    width: 250px;
     padding: 10px;
     margin: -50px auto 0 auto;
+    text-align: center
 }
 
 .firm a:link,
@@ -461,7 +460,7 @@ footer p {
 .info {
     float: left;
     width: 30%;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .info img {

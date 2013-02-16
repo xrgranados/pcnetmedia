@@ -43,6 +43,7 @@
                 <h1>CONTACTO</h1>
                 <div class="info">
                     <p>
+                        
                         <h3>ATENCIÓN AL CLIENTE</h3>
                         <hr> <br>
                         PBX: 2491-3999 <br><br>
@@ -93,10 +94,8 @@
                     <input type="hidden" name="pageNumber" value="0">
                     <input type="hidden" name="backupCache" value="">
 
-
                     <div class="ss-item ss-navigate"><div class="ss-form-entry">
-                    <input type="submit" name="submit" value="Enviar"></div></div></form>
-                    
+                    <input type="submit" name="submit" value="Enviar"></div></div></form>   
                           
                 </div>
                 <br><br><br><br><br><br><br><br>

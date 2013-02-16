@@ -56,7 +56,7 @@
 	</div>
 
 	<div class="firm">
-		<p>© 2013 EQUUS Guatemala Powerd by <a href="http://www.pcnetmedia.com" target="_blank">Pcnet media</a></p>	
+		<p>© 2013 EQUUS Guatemala • PBX: 2491-3999 <br> Powerd by <a href="http://www.pcnetmedia.com" target="_blank">Pcnet media</a></p>	
 	</div>
 
 </footer>
