@@ -38,7 +38,7 @@
 						<div class="ch-item">	
 							<div class="ch-info ch-bg1">
 								<h3>Diseño Web</h3>
-								<p>Creatividad, Innovación, Móviles... <a href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
+								<p>Creatividad, Innovación, Móviles... <a rel="portfolio" href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
 							</div>
 							<div class="ch-thumb ch-img-1"></div>
 						</div>
@@ -47,7 +47,7 @@
 						<div class="ch-item">
 							<div class="ch-info ch-bg2">
 								<h3>Social Media</h3>
-								<p>Redes Sociales, Marketing Viral... <a href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
+								<p>Redes Sociales, Marketing Viral... <a rel="portfolio" href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
 							</div>
 							<div class="ch-thumb ch-img-2"></div>
 						</div>
@@ -56,7 +56,7 @@
 						<div class="ch-item">
 							<div class="ch-info ch-bg3">
 								<h3>Diseño Gráfico</h3>
-								<p>Comunicación Visual, Creatividad, Ilustración...<a href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
+								<p>Comunicación Visual, Creatividad, Ilustración...<a rel="portfolio" href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
 							</div>
 							<div class="ch-thumb ch-img-3"></div>
 						</div>
@@ -155,6 +155,17 @@
 		</footer>
 	</div>
 
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="https://raw.github.com/Indamix/real-shadow/master/realshadow.js"></script>
+	<script type="text/javascript">
+
+	$(function(){
+		$('button, .container, .text').realshadow({
+			pageY: 190
+		});
+	});
+	</script>
+
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
         <script type="text/javascript" src="assets/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
         <script type="text/javascript" src="assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
@@ -179,14 +190,18 @@
                 return false;
             });
 
-            $("a[rel=]").fancybox({
-                'transitionIn'      : 'none',
-                'transitionOut'     : 'none',
-                'titlePosition'     : 'over',
+            $("a[rel=portfolio]").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+		        'autoScale'     	: false,
+		        'transitionIn'		: 'elastic',
+				'transitionOut'		: 'elastic',
+				'type'				: 'iframe',
+				'titlePosition'     : 'inside',
                 'titleFormat'       : function(title, currentArray, currentIndex, currentOpts) {
                     return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + ' &#149;  EQUUS' + (title.length ? ' &nbsp; ' + title : '') + '</span>';
                 }
-            });
+			});
 
         });
         </script>

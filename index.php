@@ -42,7 +42,7 @@
          <!-- About Us -->
         <div class="parentContainer" id="aboutUs">
             <section>
-                <header class="clearfix">
+                <header class="about clearfix">
                     <img src="assets/img/icons/manImg.png" class="hImg" alt="">
                     <h1>¿Quienes Somos?</h1>
                     <h2>Información acerca de nosotros.</h2>
