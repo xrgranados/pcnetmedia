@@ -38,7 +38,7 @@
 						<div class="ch-item">	
 							<div class="ch-info ch-bg1">
 								<h3>Diseño Web</h3>
-								<p>Creatividad, Innovación, Móviles... <a rel="portfolio" href="http://www.pcnetmedia.com/webdesing.html" target="_blank">Ver más...</a></p>
+								<p>Creatividad, Innovación, Móviles... <a rel="portfolio" href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
 							</div>
 							<div class="ch-thumb ch-img-1"></div>
 						</div>
@@ -56,7 +56,7 @@
 						<div class="ch-item">
 							<div class="ch-info ch-bg3">
 								<h3>Diseño Gráfico</h3>
-								<p>Comunicación Visual, Creatividad, Ilustración...<a rel="portfolio3" href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
+								<p>Comunicación Visual, Creatividad, Ilustración...<a rel="portfolio" href="http://www.pcnetmedia.com" target="_blank">Ver más...</a></p>
 							</div>
 							<div class="ch-thumb ch-img-3"></div>
 						</div>
@@ -191,8 +191,8 @@
             });
 
             $("a[rel=portfolio]").fancybox({
-				'width'				: '80%',
-				'height'			: '80%',
+				'width'				: '75%',
+				'height'			: '75%',
 		        'autoScale'     	: false,
 		        'transitionIn'		: 'elastic',
 				'transitionOut'		: 'elastic',
@@ -201,8 +201,8 @@
 			});
 
 			$("a[rel=portfolio2]").fancybox({
-				'width'				: '80%',
-				'height'			: '80%',
+				'width'				: '75%',
+				'height'			: '75%',
 		        'autoScale'     	: false,
 		        'transitionIn'		: 'elastic',
 				'transitionOut'		: 'elastic',
@@ -211,8 +211,8 @@
 			});
 
 			$("a[rel=portfolio3]").fancybox({
-				'width'				: '80%',
-				'height'			: '80%',
+				'width'				: '75%',
+				'height'			: '75%',
 		        'autoScale'     	: false,
 		        'transitionIn'		: 'elastic',
 				'transitionOut'		: 'elastic',

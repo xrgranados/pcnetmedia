@@ -63,7 +63,7 @@ a:link, a:hover, a:visited {
 	margin-left: 35px
 }
 	
- .col {
+.col {
 	margin-left: 25px;
 	font-family: arial, Helvetica, sans-serif;
 	font-size: 2em;
@@ -72,7 +72,7 @@ a:link, a:hover, a:visited {
 	float:left;
 	}
 
- .col1 {
+.col1 {
 	margin-left: 25px;
 	font-family: arial, Helvetica, sans-serif;
 	font-size: 1.5em;

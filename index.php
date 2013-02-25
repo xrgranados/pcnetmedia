@@ -5,6 +5,7 @@
 <!--[if IE 9]>         <html class="no-js ie ie9"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
+
         <?php include_once("include/head/metas.php"); ?>
         <title>Pcnet Media</title>
         <link rel="stylesheet" href="assets/css/style.css">

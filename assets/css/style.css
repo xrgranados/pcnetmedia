@@ -401,7 +401,7 @@ a:focus {
 /*  About US */
 
 .about{
-	width:445px;
+	width:645px;
 	float:left;
 }
 
@@ -440,6 +440,7 @@ a:focus {
 .twitterWidget ul {
 	float: right;
 	width: 220px;
+	margin-top: -150px;
 }
 .twitterWidget li {
 	margin-bottom:25px;
