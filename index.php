@@ -1,4 +1,113 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="es-gt">
 <!--[if IE 8]>         <html class="no-js ie ie8"> <![endif]-->
@@ -71,67 +180,6 @@
                 </div>
             </section>
         </div>
-
-
-
-
-        <!-- Our Team -->
-        <div class="parentContainer" id="ourTeam">
-            <section>
-                <header class="clearfix">
-                    <img src="assets/img/icons/manImg.png" class="hImg" alt="">
-                    <h1>Nuestro Equipo</h1>
-                    <h2>¿Quieres conocer más acerca de nosotros?</h2>
-                    <h4>Pcnet Media esta conformado por un grupo de entusiastas, con la visión de crear e innovar.</h4>
-                </header>
-                <ol class="teamList clearfix">
-                    <li>
-                        <img src="assets/img/team/member1.png" alt="">
-                        <h5>Juan Jose Serra</h5>
-                        <h6></h6>
-                        <ul class="socialIcons clearfix">
-                            <li><a href="#" class="twitter">twitter</a></li>
-                            <li><a href="#" class="linkedin">linkedin</a></li>
-                            <li><a href="#" class="gplus">gplus</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <img src="assets/img/team/member1.png" alt="">
-                        <h5>Pedro Pablo Cervantes</h5>
-                        <h6>CEO, IT MANAGER</h6>
-                        <ul class="socialIcons clearfix">
-                            <li><a href="#" class="twitter">twitter</a></li>
-                            <li><a href="#" class="linkedin">linkedin</a></li>
-                            <li><a href="#" class="gplus">gplus</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <img src="assets/img/team/member2.png" alt="">
-                        <h5>Abraham Sunun</h5>
-                        <h6>ART&amp;DESING MANAGER</h6>
-                        <ul class="socialIcons clearfix">
-                            <li><a href="#" class="twitter">twitter</a></li>
-                            <li><a href="#" class="linkedin">linkedin</a></li>
-                            <li><a href="#" class="gplus">gplus</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <img src="assets/img/team/member2.png" alt="">
-                        <h5>Rafael Granados</h5>
-                        <h6>Web Designer</h6>
-                        <ul class="socialIcons clearfix">
-                            <li><a href="https://twitter.com/xrgranados" class="twitter" target="_blank">twitter</a></li>
-                            <li><a href="http://www.linkedin.com/pub/rafael-granados/59/36/b16" class="linkedin" target="_blank">linkedin</a></li>
-                            <li><a href="https://plus.google.com/u/0/112074454708050956492" class="gplus" target="_blank">gplus</a></li>
-                        </ul>
-                    </li>
-                    
-                </ol> 
-            </section>
-        </div>
-
-
-
 
 
 
@@ -280,15 +328,21 @@
                     </div>
                 </div>
                 <div class="rightColumn clearfix">
-                    <form id="contact">
+                    <script type="text/javascript">var submitted=false;</script>
+                    <iframe name="hidden_iframe" id="hidden_iframe"
+                    style="display:none;" onload="if(submitted)
+                    {window.location='http://www.pcnetmedia.com/sus.php';}"></iframe>
+                    <form id="contact" action="https://docs.google.com/spreadsheet/formResponse?formkey=dFdVdHJmb2ZnalRlVWNUdVhHQnh0c2c6MA&amp;ifq" method="post"
+                    target="hidden_iframe" onsubmit="submitted=true;">
                         <div>
-                            <input id="formName" class="focus input" type="text" value="Nombre *" />
-                            <input id="formBudget" class="focus input" type="text" value="Teléfono" />
-                            <input id="formEmail" class="focus input" type="text" value="E-mail *" />
-                            <!--<input id="formTime" class="focus input" type="text" value="otro" />-->
+                            <input type="text" name="entry.0.single" class="focus input" value="Nombre *" id="formName">
+                            <input type="text" name="entry.5.single" class="focus input" value="Telefono *" id="formBudget">
+                            <input type="text" name="entry.2.single" class="focus input" value="E-mail *" id="formEmail">
+                            <textarea name="entry.7.single" rows="8" cols="75" class="focusInput" id="entry_7">Mensaje...</textarea>
+                            <input type="hidden" name="pageNumber" value="0">
+                            <input type="hidden" name="backupCache" value="">
+                            <input  id="formSubmit" type="submit" name="submit" value="">
                         </div>
-                        <textarea id="formMessage" class="focusInput">Mensaje... *</textarea>
-                        <input id="formSubmit" type="submit" value=""/>
                     </form>
                     <p class="contactSucces">Gracias por enviar su mensaje!<br />Nos pondremos en contacto en breve..</p>
                     <p class="contactError">Por favor, complete todos los campos con la información correcta!</p>
@@ -421,6 +475,39 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="assets/js/plugins.min.js"></script>
         <script src="assets/js/scripts.min.js"></script>
+
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        function clickExplorer() {
+        if( document.all ) {
+        alert('Todo el contenido en este sitio esta protegido por los derechos de autor y esta prohibido su copia');
+        }
+        return false;
+        }
+        function clickOther(e) {
+        if( document.layers || ( document.getElementById && !document.all ) ) {
+        if ( e.which == 2 || e.which == 3 ) {
+        alert('Todo el contenido en este sitio esta protegido por los derechos de autor y esta prohibido su copia');
+        return false;
+        }
+        }
+        }
+        if( document.layers ) {
+        document.captureEvents( Event.MOUSEDOWN );
+        document.onmousedown=clickOther;
+        }
+        else {
+        document.onmouseup = clickOther;
+        document.oncontextmenu = clickExplorer;
+        } /* ]]> */ /* <![CDATA[ */ window.addEvent('domready', function() {
+        document.body.oncopy = function() {
+        alert('Todo el contenido en este sitio esta protegido por los derechos de autor y esta prohibido su copia');
+        return false; } });
+        if( typeof( document.onselectstart ) != 'undefined' )
+        document.onselectstart = function(){ return false };
+        document.ondragstart = function(){ return false } /* ]]> */
+        </script>
        
     </body>
 </html>
+

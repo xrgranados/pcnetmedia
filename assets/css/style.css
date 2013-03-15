@@ -242,7 +242,9 @@ html[xmlns] .clearfix {
 
 a {
   text-decoration: none;
+  color: white;
 }
+
 
 body {
 	overflow-x: hidden;

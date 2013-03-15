@@ -34,15 +34,15 @@
 		<section class="main">
 			
 				<ul class="ch-grid">
-					<li>
+						<li>
 						<div class="ch-item">	
 							<div class="ch-info ch-bg1">
 								<h3>Diseño Web</h3>
-								<p>Creatividad, Innovación, Móviles... <a rel="portfolio" href="http://www.pcnetmedia.com/webdesing.html" target="_blank">Ver más...</a></p>
+								<p>Creatividad, Innovación, Móviles... <a rel="portfolio" href="webdesing.php" target="_blank">Ver más...</a></p>
 							</div>
 							<div class="ch-thumb ch-img-1"></div>
 						</div>
-					</li>
+						</li>
 					<li>
 						<div class="ch-item">
 							<div class="ch-info ch-bg2">
@@ -66,7 +66,7 @@
 				
 		</section>
 		<section class="btn">
-			<a href="http://pcnetmedia.com" style="color: black;" target="_blank"><div style="
+			<a href="http://www.pcnetmedia.com" style="color: black;" target="_blank"><div style="
 			  padding: 15px 15px 0px 15px;
 			  background: #ddd;
 			  border: 1px solid rgba(0,0,0,0.15);
