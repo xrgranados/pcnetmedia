@@ -11,7 +11,7 @@
 <script type="text/javascript" src="assets/js/modernizr.custom.79639.js"></script> 
 <!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
 </head>
-<body>
+<body id="webdesing">
 	<div id="wrapper">
 		<header>
 			<img src="assets/images/layer1.png">
