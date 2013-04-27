@@ -462,6 +462,14 @@
                     <li><a href="https://twitter.com/pcnetmedia" class="twitter" target="_blank">twitter</a></li>
                     <li><a href="#" class="linkedin">linkedin</a></li>
                     <li><a href="https://plus.google.com/105198695457691312956" class="gplus" target="_blank">gplus</a></li>
+                    <li><a href="<a title="Test" href="http://www.facebook.com/sharer.php?s=100&p[url]=the url you want to share
+    &p[images][0]=the image you want to share
+    &p[title]=the title you want to share
+    &p[summary]=the description/summary you want to share" 
+    target="_blank">
+     <img src="your/path/to/facebook-icon.png" 
+       alt="Share on Facebook" />
+</a>" class="gplus" target="_blank">gplus</a></li>
                 </ul>
             </section>
         </div>

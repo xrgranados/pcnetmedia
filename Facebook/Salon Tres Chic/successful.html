@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Equus Guatemala</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- CSS -->
+ 	<style type="text/css">
+ 		body {
+ 			font-family: helvetica, serif;
+ 			font-size: 16px;
+ 			color: #999;
+
+ 		}
+        
+        h2 {
+        	font-size: 24px;
+        }
+        .leyenda {
+        	padding: 25px;
+        }
+        .leyenda:after {
+        	clear: both;
+        }
+        .links {
+        	width: 100%;
+        }
+
+        .items li{
+        	display: block;
+        	float: left;
+        	padding: 0 20px 0 0;
+
+        }
+
+        .items li img {
+        	-moz-box-shadow: 0px 0px 7px #000000;
+            -webkit-box-shadow: 0px 0px 7px #000000;
+			box-shadow: 0px 0px 7px #000000;
+        }
+
+        .items li img:hover {
+        	opacity: .8;
+        }
+
+        </style>
+	<link type="text/css" href="css/skitter.styles.css" media="all" rel="stylesheet" />
+<!-- JS -->
+	<script type="text/javascript" src="js/jquery-1.6.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+	<script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+<!-- Init Plugin -->
+	<script>
+		$(document).ready(function() {
+			$(".box_skitter_large").skitter({
+				numbers: false,
+				numbers_align: "center", 
+				dots: false, 
+				preview: false,
+				velocity: 0.25,
+				interval: 2250, 
+				focus: false, 
+				focus_position: "leftTop", 
+				controls: false, 
+				controls_position: "leftTop", 
+				progressbar: false, 
+				stop_over: null,
+				progressbar_css: { 
+					top:'5px', 
+					left:'590px', 
+					height:7, 
+					borderRadius:'2px', 
+					width:200, 
+					backgroundColor:'#000', 
+					opacity:.7 
+				}, 
+				animateNumberOver: { 'backgroundColor':'#555' }, 
+				enable_navigation_keys: false,
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="fanpage">
+		<img src="images/pageofi.png"/>
+		<br>
+	</div>
+	<div class="leyenda">
+		<h2>Gracias por suscribirte</h2>
+		<p>Revisa todo lo que tenemos para ti:</p>
+		<div class="links">
+			<ul class="items">
+				<li> <a href="http://www.facebook.com/EQUUS.Guatemala/photos_stream" target="_blank"><img src="images/item1.png"></a> </li>
+				<li> <a href="http://www.facebook.com/EQUUS.Guatemala" target="_blank"> <img src="images/item2.png"> </a> </li>
+				<li> <a href="http://www.equus.gt" target="blank"> <img src="images/item3.png"></a> </li>
+			</ul>
+		</div>
+
+	</div>
+
+
+
+		<div id="pie">
+		<br>
+			<img src="images/006.jpg"/>
+		</div>
+		<div id="description">
+		<p><strong>Equus Guatemala</strong><br>&copy; Todos los derechos reservados - Guatemala 2012.<br><br>Powered by <a href="http://www.facebook.com/PcNetmedia/app_216924904991602" target="_blank"><img src="images/logoweb.png" style="padding-left:5px" title="Pcnet Media"></a></p>
+		</div>
+</body>
+</html>

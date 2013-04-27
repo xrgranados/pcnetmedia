@@ -1,0 +1,41 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" gridspacingx="49152" gridspacingy="49152"
+  subsetembed="1">
+  <p:master id="3" slidesn="0,0" type="main" href="master03.htm"
+   xmlhref="master03.xml" template="Default Design" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="31" slidesn="0,0" type="main" href="master31.htm"
+   xmlhref="master31.xml" template="1_Default Design" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="1" slidesn="1CD3DDA,416D2810" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:slide id="14" slidesn="0,0" href="slide0014.htm" masterhref="master31.htm"/>
+  <p:slide id="24" slidesn="0,0" href="slide0024.htm"/>
+  <p:slide id="13" slidesn="0,0" href="slide0013.htm" masterhref="master31.htm"/>
+  <p:slide id="7" slidesn="0,0" href="slide0007.htm"/>
+  <p:slide id="17" slidesn="0,0" href="slide0017.htm"/>
+  <p:slide id="23" slidesn="0,0" href="slide0023.htm"/>
+  <p:slide id="20" slidesn="0,0" href="slide0020.htm"/>
+  <p:slide id="21" slidesn="0,0" href="slide0021.htm"/>
+  <p:slide id="15" slidesn="0,0" href="slide0015.htm" masterhref="master31.htm"/>
+  <p:printoptions/>
+  <p:viewstate type="slideView" scale="70" nosnaptogrid="t" restoredleft="88"
+   restoredtop="946" manualadjustleft="t" hideoutlineicons="t"/>
+  <p:slideshowsettings pencolor="rgb(255,0,0)"/>
+  <p:guide type="horizontal" position="1680"/>
+  <p:guide type="vertical" position="1152"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="14341">
+  <o:colormru v:ext="edit" colors="#0067ac,#b4cce2,#96b8d6,#eaeaea,#ddd,#d4e3f7,#bdd2f2,#039"/>
+ </o:shapedefaults></xml>

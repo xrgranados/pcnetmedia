@@ -14,7 +14,7 @@
 <body>
 	<div id="wrapper">
 		<header>
-			<img src="assets/images/acti.png">
+			<img src="assets/images/Ad02.png">
 			<!--<h3>#</h3>
 			<h4>#</h4>
 			<div style="text-align:left; margin: 0 0 0 90px; font-size:15px;">:&nbsp;<br />

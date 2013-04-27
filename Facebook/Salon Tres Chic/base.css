@@ -1,0 +1,40 @@
+
+#counter {
+	background: url(images/counter_banner_pc.png);
+	background-repeat: no-repeat;
+	-o-border-radius:3px;
+	-ms-border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:25px 25px 25px 25px; 
+	text-align: right;
+}
+
+#proximo .cuenta{
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	*display:inline;
+	margin-right:50px;
+	vertical-align:top;
+	zoom:1;}
+#proximo .cuenta:last-child{margin-right:0}
+#proximo .cuenta .leyenda{
+
+	font-size:10px;
+	margin-top:10px;
+	text-align: center;
+	text-transform:uppercase}
+#proximo .cuenta .digito{
+	background:#fff;
+	border:2px solid #b7bbbf;
+	-o-border-radius:3px;
+	-ms-border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	color:#636363;
+	font-family: arial, helvetica;
+	font-weight:bold;
+	font-size:60px;
+	padding:8px 5px}

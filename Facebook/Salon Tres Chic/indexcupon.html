@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Equus Guatemala</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- CSS -->
+	<link type="text/css" href="css/skitter.styles.css" media="all" rel="stylesheet" />
+<!-- JS -->
+	<script type="text/javascript" src="js/jquery-1.6.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+	<script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+<!-- Init Plugin -->
+	<script>
+		$(document).ready(function() {
+			$(".box_skitter_large").skitter({
+				numbers: false,
+				numbers_align: "center", 
+				dots: false, 
+				preview: false,
+				velocity: 0.25,
+				interval: 2250, 
+				focus: false, 
+				focus_position: "leftTop", 
+				controls: false, 
+				controls_position: "leftTop", 
+				progressbar: false, 
+				stop_over: null,
+				progressbar_css: { 
+					top:'5px', 
+					left:'590px', 
+					height:7, 
+					borderRadius:'2px', 
+					width:200, 
+					backgroundColor:'#000', 
+					opacity:.7 
+				}, 
+				animateNumberOver: { 'backgroundColor':'#555' }, 
+				enable_navigation_keys: false,
+			});
+		});
+	</script>
+</head>
+<body>
+	
+	<div id="news">
+			<div class="col">Obtén Descuentos Especiales</div>
+			<script type="text/javascript">var submitted=false;</script>
+		    <iframe name="hidden_iframe" id="hidden_iframe"
+		    style="display:none;" onload="if(submitted)
+		    {window.location='http://www.equus.gt/fbequus/cuponsuccessful.html';}"></iframe>
+		    <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDhMWW5wdGhTcUNRa0pUQ2EyeHhhY3c6MA&amp;ifq" method="post"
+		    target="hidden_iframe" onsubmit="submitted=true;">
+			<br>
+			<div class="errorbox-good">
+			<div class="col">
+			<div class="ss-item ss-item-required ss-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_2"><span class="ss-required-asterisk"></span></label>
+			<label class="ss-q-help" for="entry_2"></label>
+			<input type="text" name="entry.2.single" value="" class="ss-q-short" id="entry_2" placeholder="Ingresa tu Email"></div></div></div></div>
+			<div class="ss-item ss-navigate"><div class="ss-form-entry">
+			<input type="submit" name="submit" value="Obtener Cupón"></div></div></form>
+			<script type="text/javascript">
+			      
+			(function() {
+			var divs = document.getElementById('ss-form').
+			getElementsByTagName('div');
+			var numDivs = divs.length;
+			for (var j = 0; j < numDivs; j++) {
+			if (divs[j].className == 'errorbox-bad') {
+			divs[j].lastChild.firstChild.lastChild.focus();
+			return;
+			}
+			}
+			for (var i = 0; i < numDivs; i++) {
+			var div = divs[i];
+			if (div.className == 'ss-form-entry' &&
+			div.firstChild &&
+			div.firstChild.className == 'ss-q-title') {
+			div.lastChild.focus();
+			return;
+			}
+			}
+			})();
+			</script></div>
+
+	</div>
+</br>
+
+	<div id="content">
+		<div id="fanpage">
+		<img src="images/titulos.jpg"/>
+		<br>
+	</div>	
+		<div id="pie">
+		<br>
+			<img src="images/006.jpg"/>
+		</div>
+		<div id="description">
+		<p><strong>Equus Guatemala</strong><br>&copy; Todos los derechos reservados - Guatemala 2012.<br><br>Powered by <a href="http://www.facebook.com/PcNetmedia/app_216924904991602" target="_blank"><img src="images/logoweb.png" style="padding-left:5px" title="Pcnet Media"></a></p>
+		</div>
+	</div>
+</body>
+</html>
