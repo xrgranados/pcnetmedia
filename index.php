@@ -252,7 +252,7 @@
                 </header>
                 <ol class="teamList clearfix">
                     <li>
-                        <img src="assets/img/portfolio/equus.png" alt="">
+                        <a href="http://www.equus.gt" target="_blank"><img src="assets/img/portfolio/equus.png" alt="EQUUS • Guatemala"></a>
                         <h5>Equus Guatemala</h5>
                         
                         <ul class="socialIcons clearfix">
@@ -262,7 +262,7 @@
                         </ul>
                     </li>
                     <li>
-                        <img src="assets/img/portfolio/enlace.png" alt="">
+                        <a href="http://www.facebook.com/enlacegt/app_208195102528120" target="_blank"><img src="assets/img/portfolio/enlace.png" alt="Enlace Inmobiliario"></a>
                         <h5>Inmobiliaria Enlace</h5>
                        
                         <ul class="socialIcons clearfix">
@@ -270,21 +270,50 @@
                         </ul>
                     </li>
                     <li>
-                        <img src="assets/img/portfolio/consa.png" alt="">
-                        <h5>Construconsa Inmobiliaria</h5>
+                        <a href="http://www.facebook.com/ConstruconsaInmobiliaria/app_208195102528120" target="_blank"><img src="assets/img/portfolio/consa.png" alt="Facebook Conctruconsa"></a>
+                        <h5>Construconsa Facebook</h5>
                         <h6></h6>
                         <ul class="socialIcons clearfix">
                             <li><a href="http://www.facebook.com/ConstruconsaInmobiliaria/app_208195102528120" class="Facebook" target="_blank"></a></li>
                         </ul>
                     </li>
                     <li>
-                        <img src="assets/img/portfolio/tres.png" alt="">
-                        <h5>Tres Chic Salon</h5>
+                        <a href="http://www.construconsa/test/" target="_blank"><img src="assets/img/portfolio/consasite.png" alt="Website Conctruconsa"></a>
+                        <h5>Construconsa Website</h5>
+                        <h6></h6>
+                        <ul class="socialIcons clearfix">
+                            <li><a href="http://www.construconsa/test/" class="web" target="_blank"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="http://www.facebook.com/TresChicSalonBeautyShop/app_208195102528120" target="_blank"><img src="assets/img/portfolio/tres.png" alt="Beauty Shop"></a>
+                        <h5>Tres Chic Salon Beauty Shop</h5>
                         <ul class="socialIcons clearfix">
                             <li><a href="http://www.facebook.com/TresChicSalonBeautyShop/app_208195102528120" class="facebook" target="_blank"></a></li>
                         </ul>
                     </li>
-                    
+                    <li>
+                        <a href="http://www.facebook.com/SalonesTresChic" target="_blank"><img src="assets/img/portfolio/tressalon.png" alt="Tres Chic"></a>
+                        <h5>Tres Chic Salon</h5>
+                        <ul class="socialIcons clearfix">
+                            <li><a href="http://www.facebook.com/SalonesTresChic" class="facebook" target="_blank"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="http://www.perforagua.com.gt" target="_blank"><img src="assets/img/portfolio/perforagua.png" alt="Tres Chic"></a>
+                        <h5>Perforagua</h5>
+                        <ul class="socialIcons clearfix">
+                            <li><a href="http://www.perforagua.com.gt" class="web" target="_blank"></a></li>
+                            <li><a href="http://www.facebook.com/PerforaguaGT" class="facebook" target="_blank"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="http://www.facebook.com/fundacionteoxcheguatemala" target="_blank"><img src="assets/img/portfolio/funda.png" alt="Tres Chic"></a>
+                        <h5>Fudación Teoxché</h5>
+                        <ul class="socialIcons clearfix">
+                            <li><a href="http://www.facebook.com/fundacionteoxcheguatemala" class="facebook" target="_blank"></a></li>
+                        </ul>
+                    </li>
                 </ol> 
             </section>
         </div>
@@ -460,16 +489,8 @@
                 <ul class="socialIcons clearfix">
                     <li><a href="http://www.facebook.com/PcNetmedia" class="facebook" target="_blank">facebook</a></li>
                     <li><a href="https://twitter.com/pcnetmedia" class="twitter" target="_blank">twitter</a></li>
-                    <li><a href="#" class="linkedin">linkedin</a></li>
                     <li><a href="https://plus.google.com/105198695457691312956" class="gplus" target="_blank">gplus</a></li>
-                    <li><a href="<a title="Test" href="http://www.facebook.com/sharer.php?s=100&p[url]=the url you want to share
-    &p[images][0]=the image you want to share
-    &p[title]=the title you want to share
-    &p[summary]=the description/summary you want to share" 
-    target="_blank">
-     <img src="your/path/to/facebook-icon.png" 
-       alt="Share on Facebook" />
-</a>" class="gplus" target="_blank">gplus</a></li>
+                    
                 </ul>
             </section>
         </div>

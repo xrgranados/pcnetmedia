@@ -494,24 +494,36 @@ a:focus {
 }
 .teamList {
 	margin-bottom:-40px;
+	background: url(../img/bg_tramado.png);
 }
 .teamList > li {
 	float: left;
 	text-align: center;
-	margin:0 20px;
+	margin:0 20px 40px 20px;
 	position:relative;
 	overflow: hidden;
 	width:200px;
 }
 .teamList img {
-	margin-bottom:-200px;
+	margin-bottom:-205px;
 	-webkit-border-radius: 50% 50% 50% 0%;
 	   -moz-border-radius: 50% 50% 50% 0%;
 			border-radius: 50% 50% 50% 0%;
+	opacity:.65;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	-webkit-transition:all 300ms ease-in;
+    -o-transition:all 300ms ease-in;
+    -moz-transition:all 300ms ease-in;
 
 }
+
+.teamList img:hover {
+	opacity:1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+} 
+
 .teamList h5 {
-	margin-top: 230px;
+	margin-top: 200px;
 	font-size: 24px;
 	line-height: 34px;
 	font-family: 'Open Sans', sans-serif;
@@ -529,10 +541,8 @@ a:focus {
 }
 .teamList > li > a {
     display: block;
-    height: 200px;
+    height: 25px;
     left: 0;
-    position: absolute;
-    text-indent: -9999px;
     top: 0;
     width: 200px;
     z-index: 9999;
@@ -556,9 +566,9 @@ a:focus {
 	background:url(../img/socialIcons.png) no-repeat 0px 0px transparent;
 	opacity:.4;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-	-webkit-transition:all 100ms ease-in;
-    -o-transition:all 100ms ease-in;
-    -moz-transition:all 100ms ease-in;
+	-webkit-transition:all 300ms ease-in;
+    -o-transition:all 300ms ease-in;
+    -moz-transition:all 300ms ease-in;
 }
 .socialIcons .facebook {
 	background-position:0px 0px;
@@ -604,6 +614,9 @@ a:focus {
 }
 .socialIcons .flickr {
 	background-position:-111px -73px;
+}
+.socialIcons .web {
+	background-position:0 -110px;
 }
 .socialIcons a:hover {
 	opacity:1;
