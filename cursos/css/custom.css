@@ -76,14 +76,13 @@ a.carousel-control:hover {
   -webkit-background-size:cover;
   -moz-background-size:cover;
   background-size:cover;
-width: 100%;
+  width: 100%;
 }
 
 .header-bar {
   padding:10px;
   height: 50px;
   border-radius: 15px 3px 60px 15px;
-  border-bottom: 15px solid #f6c26c;
   background-color: white;
   display: block;
   margin: 5px auto;
@@ -155,8 +154,8 @@ width: 100%;
   font-weight: 300;
   font-size: 24px;
   padding: 15px 35px;
-  border: 2px solid rgb(4, 167, 100);
-  background: rgb(4, 167, 100);
+  border: 2px solid rgb(0, 177, 103);
+  background: rgb(0, 177, 103);
   display: inline-block;
   
   -webkit-border-radius: 9px;
@@ -181,12 +180,12 @@ width: 100%;
 .descrip{
   padding:15px;
   background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.65)));
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%);
-background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%);
-background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%);
-background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#a6000000',GradientType=0 );
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.65)));
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%);
+  background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%);
+  background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#a6000000',GradientType=0 );
 
 }
 
@@ -229,7 +228,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
                         section#features
 **************************************************************/
 .features {
-  background: #04a764 url('http://www.pcnetmedia.com/assets/img/noisepattern.png');  
+  background: #00b167 url('http://www.pcnetmedia.com/assets/img/noisepattern.png');  
   border-top: 1px solid rgba(255, 255, 255, 0.54);
   color: white;
   font-weight: bold;
