@@ -124,6 +124,8 @@ section {
   display: block;
 }
 
+
+
 b,
 strong {
 /*
@@ -358,7 +360,7 @@ a:focus {
 
 /*  Header */
 #header {
-	background:url(../img/preloader2.gif) no-repeat center center #222;
+	background:url(../img/header/back.jpg) no-repeat center center #222;
     padding:0;
 }
 #header section {
@@ -409,6 +411,7 @@ a:focus {
 
 #aboutUs {
 	background-color: #febf00;
+	/*border-top: 10px solid #febf00;*/
 }
 #aboutUs h4 {
 	color: #3f2313;
