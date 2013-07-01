@@ -17,7 +17,7 @@
                     reset some defaults styles
 **************************************************************/
 body {
-  font-family: lato;
+  font-family: 'Lato';
   font-size: 15px;
   font-weight: 300;
   color: rgb(124, 124, 124);
@@ -80,10 +80,6 @@ a.carousel-control:hover {
 }
 
 .header-bar {
-  padding:10px;
-  height: 50px;
-  border-radius: 15px 3px 60px 15px;
-  background-color: white;
   display: block;
   margin: 5px auto;
   width:81%;
@@ -301,14 +297,14 @@ blockquote:hover i {
 }
 
 .plan {
-  border: 5px solid rgb(246, 194, 108);
+  border: 5px solid rgb(0, 177, 103);
   background: #fff;
   padding: 25px;
-  
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+
 .plan-1 {
   margin-top: 80px;
 }
@@ -339,12 +335,20 @@ blockquote:hover i {
 }
 
 
-h2.accordion { cursor: pointer; transition: background 0.3s linear;
+h3.accordion, h3.accordion2 { cursor: pointer; transition: background 0.3s linear;
   -moz-transition: background 0.3s linear;
   -webkit-transition: background 0.3s linear;
   -o-transition: background 0.3s linear; }
 
-div.accordion{ display: none; }
+h3.accordion, h3.accordion2 { background: rgba(0, 177, 103, 0.9);
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  }
+
+div.accordion, div.accordion2{ display: none; }
+
+
 
 /*************************************************************
                         section#contact
@@ -382,7 +386,7 @@ ul.social li {
   height: 60px;
   overflow: hidden;
   line-height: 60px;
-  background: rgb(224, 112, 51);
+  background: rgb(0, 177, 103);
   margin-bottom:.5em;
   font-size: 20px;
   
@@ -396,8 +400,8 @@ ul.social li {
   transition-duration: 0.7s; 
 }
 ul.social li:hover {
-  background: #f6c26c;
-  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3); 
+  background: #34db93;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3); 
 }
 ul.social li:hover a {
   

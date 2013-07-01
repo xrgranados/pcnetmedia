@@ -46,13 +46,13 @@
                     <img src="assets/img/icons/manImg.png" class="hImg" alt="">
                     <h1>¿Quienes Somos?</h1>
                     <h2>Información acerca de nosotros.</h2>
-                    <h4>Viendo la necesidad de plasmar ideas nace Pcnet Media, el grupo dedicado a diseño digital. <br>
-                    Pcnet Media es la agencia que te ayuda a impulsar tu marca o producto, exhibiéndolo en el ámbito web. </h4>
+                    <h4>Pcnet Media es la agencia que te ayuda a impulsar tu marca o producto, exhibiéndolo en el ámbito web. <br>
+                    Viendo la necesidad de plasmar ideas nace Pcnet Media, el grupo dedicado a diseño digital. </h4>
                     
                 </header>
                 <div class="leftColumn clearfix">
                     <p><br>
-                        La presencia en internet genera conversaciones y con esto mjoere amistades online, lo qe se draduce en fieles cosmidores. </p>
+                        La presencia en internet genera conversaciones y con esto mejores amistades online, lo que se traduce en fieles consumidores. </p>
                     <p>En Pcnet Media Ofrecemos:</p>
                     <p> <dl><dd>• Diseño, instalación y administración de redes.<br>
                         • Venta y mantenimiento de suministros de computo en general.<br>
@@ -64,7 +64,7 @@
                 </div>   
                 <div class="rightColumn clearfix">
                     <div class="twitterWidget">
-                        <img src="assets/img/twitter.png" alt="">
+                        <!--<img src="assets/img/twitter.png" alt="">-->
                         <ul>
                             <li>
                                 <p class="twitterId">Latest tweets are loading...</p>
